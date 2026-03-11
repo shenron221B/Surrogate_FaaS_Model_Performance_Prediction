@@ -1,0 +1,117 @@
+{"Success":true,"Result":"22","ResponseTime":1.214158976,"IsWarmStart":false,"InitTime":1.204613959,"QueueingTime":0.20508489,"OffloadLatency":0,"Duration":0.009544407000000033,"Output":""}
+
+{"Success":true,"Result":"18","ResponseTime":2.944003758,"IsWarmStart":false,"InitTime":2.927185944,"QueueingTime":1.893519296,"OffloadLatency":0,"Duration":0.016817179999999987,"Output":""}
+
+{"Success":true,"Result":"26","ResponseTime":3.79641042,"IsWarmStart":false,"InitTime":3.785383039,"QueueingTime":2.747846348,"OffloadLatency":0,"Duration":0.011026968999999998,"Output":""}
+
+{"Success":true,"Result":"24","ResponseTime":5.406897263,"IsWarmStart":false,"InitTime":5.396318621,"QueueingTime":4.333462138,"OffloadLatency":0,"Duration":0.010577898999999946,"Output":""}
+
+{"Success":true,"Result":"30","ResponseTime":2.83315426,"IsWarmStart":false,"InitTime":2.8211068519999998,"QueueingTime":1.764451872,"OffloadLatency":0,"Duration":0.01204685900000002,"Output":""}
+
+{"Success":true,"Result":"28","ResponseTime":6.671053232,"IsWarmStart":false,"InitTime":6.658572755,"QueueingTime":5.611184339,"OffloadLatency":0,"Duration":0.012479836000000022,"Output":""}
+
+{"Success":true,"Result":"34","ResponseTime":10.1114376,"IsWarmStart":false,"InitTime":10.099625743,"QueueingTime":9.02905034,"OffloadLatency":0,"Duration":0.011811055000000015,"Output":""}
+
+{"Success":true,"Result":"32","ResponseTime":14.477562009,"IsWarmStart":false,"InitTime":14.468401373,"QueueingTime":13.422998083,"OffloadLatency":0,"Duration":0.009160205000000032,"Output":""}
+
+{"Success":true,"Result":"4","ResponseTime":15.649645962,"IsWarmStart":false,"InitTime":15.640068429,"QueueingTime":14.587784941,"OffloadLatency":0,"Duration":0.009576838999999948,"Output":""}
+
+{"Success":true,"Result":"2","ResponseTime":17.796453983,"IsWarmStart":false,"InitTime":17.785298104,"QueueingTime":16.711920795,"OffloadLatency":0,"Duration":0.011155322000000023,"Output":""}
+
+
+{"Success":true,"Result":"8","ResponseTime":19.525286202,"IsWarmStart":false,"InitTime":19.514313279,"QueueingTime":18.440405328,"OffloadLatency":0,"Duration":0.010972215999999979,"Output":""}
+
+{"Success":true,"Result":"6","ResponseTime":16.274465954,"IsWarmStart":false,"InitTime":16.265065699,"QueueingTime":15.216117698,"OffloadLatency":0,"Duration":0.009399673999999969,"Output":""}
+
+{"Success":true,"Result":"12","ResponseTime":13.590080619,"IsWarmStart":false,"InitTime":13.578413399,"QueueingTime":12.531908318,"OffloadLatency":0,"Duration":0.011666602000000026,"Output":""}
+
+{"Success":true,"Result":"16","ResponseTime":11.570356397,"IsWarmStart":false,"InitTime":11.559003555,"QueueingTime":10.489523325,"OffloadLatency":0,"Duration":0.011352141000000038,"Output":""}
+
+{"Success":true,"Result":"14","ResponseTime":14.908769291,"IsWarmStart":false,"InitTime":14.897853288,"QueueingTime":13.839910812,"OffloadLatency":0,"Duration":0.010915285000000052,"Output":""}
+
+
+{"Success":true,"Result":"56","ResponseTime":16.201865877,"IsWarmStart":false,"InitTime":16.191466052,"QueueingTime":15.132276113,"OffloadLatency":0,"Duration":0.010399291000000033,"Output":""}
+
+{"Success":true,"Result":"54","ResponseTime":14.41874389,"IsWarmStart":true,"InitTime":14.413199861,"QueueingTime":14.413081844,"OffloadLatency":0,"Duration":0.005543421,"Output":""}
+
+{"Success":true,"Result":"60","ResponseTime":16.831197427,"IsWarmStart":false,"InitTime":16.820525336,"QueueingTime":15.746668915,"OffloadLatency":0,"Duration":0.010671450999999998,"Output":""}
+
+
+{"Success":true,"Result":"58","ResponseTime":17.632540429,"IsWarmStart":false,"InitTime":17.622804368,"QueueingTime":16.546921274,"OffloadLatency":0,"Duration":0.00973548599999996,"Output":""}
+
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at org.apache.jmeter.threads.openmodel.OpenModelThreadGroup$ThreadsStarter.run$lambda$0(OpenModelThreadGroup.kt:147)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at org.apache.jmeter.threads.openmodel.OpenModelThreadGroup$ThreadsStarter.run$lambda$0(OpenModelThreadGroup.kt:147)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

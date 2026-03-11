@@ -1,0 +1,257 @@
+REPORT DETTAGLIATO SATURAZIONE E STATISTICHE - DATASET: x16
+=====================================================================================
+
+ROW 01 | CARICO: [0.2, 0.2]
+  [JMeter Client]
+    - Richieste Inviate : 48
+    - Fallite / Timeout : 0 (0.0%)
+    - Utilità (U)       : 0.9375 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.209s
+    - RT Medio          : 0.278s
+    - RT Mediano        : 0.211s
+    - RT Massimo        : 1.306s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 48
+    - Scartate/Respinte : 0 (API Gateway Drop o Timeout)
+    - Warm Starts       : 45
+    - Cold Starts       : 3 (6.2% delle valide)
+    - Tempo in Coda     : Medio = 0.0000s | Max = 0.0000s
+    - Tempo di Calcolo  : Min = 0.2044s | Mediano = 0.2053s | Medio = 0.2058s | Max = 0.2115s
+
+ROW 02 | CARICO: [0.4, 0.1]
+  [JMeter Client]
+    - Richieste Inviate : 60
+    - Fallite / Timeout : 0 (0.0%)
+    - Utilità (U)       : 0.9500 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.208s
+    - RT Medio          : 0.264s
+    - RT Mediano        : 0.210s
+    - RT Massimo        : 1.344s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 60
+    - Scartate/Respinte : 0 (API Gateway Drop o Timeout)
+    - Warm Starts       : 57
+    - Cold Starts       : 3 (5.0% delle valide)
+    - Tempo in Coda     : Medio = 0.0000s | Max = 0.0000s
+    - Tempo di Calcolo  : Min = 0.2043s | Mediano = 0.2047s | Medio = 0.2051s | Max = 0.2115s
+
+ROW 03 | CARICO: [0.1, 0.4]
+  [JMeter Client]
+    - Richieste Inviate : 60
+    - Fallite / Timeout : 0 (0.0%)
+    - Utilità (U)       : 0.9333 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.209s
+    - RT Medio          : 0.280s
+    - RT Mediano        : 0.210s
+    - RT Massimo        : 1.267s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 60
+    - Scartate/Respinte : 0 (API Gateway Drop o Timeout)
+    - Warm Starts       : 56
+    - Cold Starts       : 4 (6.7% delle valide)
+    - Tempo in Coda     : Medio = 0.0000s | Max = 0.0000s
+    - Tempo di Calcolo  : Min = 0.2043s | Mediano = 0.2049s | Medio = 0.2053s | Max = 0.2116s
+
+ROW 04 | CARICO: [0.7, 0.7]
+  [JMeter Client]
+    - Richieste Inviate : 168
+    - Fallite / Timeout : 0 (0.0%)
+    - Utilità (U)       : 0.9583 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.208s
+    - RT Medio          : 0.266s
+    - RT Mediano        : 0.210s
+    - RT Massimo        : 2.264s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 168
+    - Scartate/Respinte : 0 (API Gateway Drop o Timeout)
+    - Warm Starts       : 161
+    - Cold Starts       : 7 (4.2% delle valide)
+    - Tempo in Coda     : Medio = 0.0107s | Max = 0.9894s
+    - Tempo di Calcolo  : Min = 0.2041s | Mediano = 0.2050s | Medio = 0.2054s | Max = 0.2142s
+
+ROW 05 | CARICO: [0.5, 1.0]
+  [JMeter Client]
+    - Richieste Inviate : 180
+    - Fallite / Timeout : 0 (0.0%)
+    - Utilità (U)       : 0.9667 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.208s
+    - RT Medio          : 0.253s
+    - RT Mediano        : 0.209s
+    - RT Massimo        : 1.941s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 180
+    - Scartate/Respinte : 0 (API Gateway Drop o Timeout)
+    - Warm Starts       : 174
+    - Cold Starts       : 6 (3.3% delle valide)
+    - Tempo in Coda     : Medio = 0.0073s | Max = 0.6977s
+    - Tempo di Calcolo  : Min = 0.2038s | Mediano = 0.2049s | Medio = 0.2053s | Max = 0.2156s
+
+ROW 06 | CARICO: [1.5, 1.0]
+  [JMeter Client]
+    - Richieste Inviate : 300
+    - Fallite / Timeout : 0 (0.0%)
+    - Utilità (U)       : 0.9733 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.208s
+    - RT Medio          : 0.240s
+    - RT Mediano        : 0.209s
+    - RT Massimo        : 2.183s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 300
+    - Scartate/Respinte : 0 (API Gateway Drop o Timeout)
+    - Warm Starts       : 294
+    - Cold Starts       : 6 (2.0% delle valide)
+    - Tempo in Coda     : Medio = 0.0089s | Max = 0.8755s
+    - Tempo di Calcolo  : Min = 0.2039s | Mediano = 0.2048s | Medio = 0.2051s | Max = 0.2129s
+
+ROW 07 | CARICO: [2.0, 0.9]
+  [JMeter Client]
+    - Richieste Inviate : 348
+    - Fallite / Timeout : 1 (0.3%)
+    - Utilità (U)       : 0.9684 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.098s
+    - RT Medio          : 0.241s
+    - RT Mediano        : 0.209s
+    - RT Massimo        : 1.597s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 347
+    - Scartate/Respinte : 1 (API Gateway Drop o Timeout)
+    - Warm Starts       : 339
+    - Cold Starts       : 8 (2.3% delle valide)
+    - Tempo in Coda     : Medio = 0.0066s | Max = 1.0600s
+    - Tempo di Calcolo  : Min = 0.2038s | Mediano = 0.2048s | Medio = 0.2051s | Max = 0.2179s
+
+ROW 08 | CARICO: [0.9, 2.0]
+  [JMeter Client]
+    - Richieste Inviate : 348
+    - Fallite / Timeout : 2 (0.6%)
+    - Utilità (U)       : 0.9770 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.114s
+    - RT Medio          : 0.227s
+    - RT Mediano        : 0.209s
+    - RT Massimo        : 1.291s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 346
+    - Scartate/Respinte : 2 (API Gateway Drop o Timeout)
+    - Warm Starts       : 340
+    - Cold Starts       : 6 (1.7% delle valide)
+    - Tempo in Coda     : Medio = 0.0000s | Max = 0.0000s
+    - Tempo di Calcolo  : Min = 0.2038s | Mediano = 0.2047s | Medio = 0.2049s | Max = 0.2143s
+
+ROW 09 | CARICO: [2.5, 1.8]
+  [JMeter Client]
+    - Richieste Inviate : 516
+    - Fallite / Timeout : 3 (0.6%)
+    - Utilità (U)       : 0.9612 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.010s
+    - RT Medio          : 0.242s
+    - RT Mediano        : 0.209s
+    - RT Massimo        : 1.935s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 513
+    - Scartate/Respinte : 3 (API Gateway Drop o Timeout)
+    - Warm Starts       : 502
+    - Cold Starts       : 11 (2.1% delle valide)
+    - Tempo in Coda     : Medio = 0.0102s | Max = 1.3168s
+    - Tempo di Calcolo  : Min = 0.2039s | Mediano = 0.2048s | Medio = 0.2050s | Max = 0.2143s
+
+ROW 10 | CARICO: [1.8, 2.5]
+  [JMeter Client]
+    - Richieste Inviate : 516
+    - Fallite / Timeout : 264 (51.2%)
+    - Utilità (U)       : 0.1783 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.003s
+    - RT Medio          : 1.182s
+    - RT Mediano        : 0.208s
+    - RT Massimo        : 7.628s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 252
+    - Scartate/Respinte : 264 (API Gateway Drop o Timeout)
+    - Warm Starts       : 155
+    - Cold Starts       : 97 (38.5% delle valide)
+    - Tempo in Coda     : Medio = 1.7103s | Max = 7.3856s
+    - Tempo di Calcolo  : Min = 0.2031s | Mediano = 0.2054s | Medio = 0.2077s | Max = 0.2179s
+
+ROW 11 | CARICO: [3.0, 3.5]
+  [JMeter Client]
+    - Richieste Inviate : 780
+    - Fallite / Timeout : 583 (74.7%)
+    - Utilità (U)       : 0.0064 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.003s
+    - RT Medio          : 0.901s
+    - RT Mediano        : 0.004s
+    - RT Massimo        : 8.835s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 197
+    - Scartate/Respinte : 583 (API Gateway Drop o Timeout)
+    - Warm Starts       : 107
+    - Cold Starts       : 90 (45.7% delle valide)
+    - Tempo in Coda     : Medio = 2.8039s | Max = 7.5470s
+    - Tempo di Calcolo  : Min = 0.2041s | Mediano = 0.2067s | Medio = 0.2083s | Max = 0.2161s
+
+ROW 12 | CARICO: [4.5, 4.5]
+  [JMeter Client]
+    - Richieste Inviate : 1080
+    - Fallite / Timeout : 877 (81.2%)
+    - Utilità (U)       : 0.0009 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.002s
+    - RT Medio          : 0.703s
+    - RT Mediano        : 0.004s
+    - RT Massimo        : 7.681s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 203
+    - Scartate/Respinte : 877 (API Gateway Drop o Timeout)
+    - Warm Starts       : 91
+    - Cold Starts       : 112 (55.2% delle valide)
+    - Tempo in Coda     : Medio = 2.7451s | Max = 6.3806s
+    - Tempo di Calcolo  : Min = 0.2040s | Mediano = 0.2107s | Medio = 0.2092s | Max = 0.2243s
+
+ROW 13 | CARICO: [3.0, 5.0]
+  [JMeter Client]
+    - Richieste Inviate : 960
+    - Fallite / Timeout : 550 (57.3%)
+    - Utilità (U)       : 0.0135 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.002s
+    - RT Medio          : 0.866s
+    - RT Mediano        : 0.107s
+    - RT Massimo        : 6.454s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 410
+    - Scartate/Respinte : 550 (API Gateway Drop o Timeout)
+    - Warm Starts       : 241
+    - Cold Starts       : 169 (41.2% delle valide)
+    - Tempo in Coda     : Medio = 1.3117s | Max = 6.0293s
+    - Tempo di Calcolo  : Min = 0.2030s | Mediano = 0.2065s | Medio = 0.2082s | Max = 0.2182s
+
+ROW 14 | CARICO: [6.0, 5.0]
+  [JMeter Client]
+    - Richieste Inviate : 1320
+    - Fallite / Timeout : 1145 (86.7%)
+    - Utilità (U)       : 0.0000 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.002s
+    - RT Medio          : 0.561s
+    - RT Mediano        : 0.004s
+    - RT Massimo        : 7.686s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 175
+    - Scartate/Respinte : 1145 (API Gateway Drop o Timeout)
+    - Warm Starts       : 83
+    - Cold Starts       : 92 (52.6% delle valide)
+    - Tempo in Coda     : Medio = 3.2546s | Max = 7.3273s
+    - Tempo di Calcolo  : Min = 0.2038s | Mediano = 0.2096s | Medio = 0.2088s | Max = 0.2168s
+
+ROW 15 | CARICO: [8.0, 8.0]
+  [JMeter Client]
+    - Richieste Inviate : 1920
+    - Fallite / Timeout : 1684 (87.7%)
+    - Utilità (U)       : 0.0000 (RT < 2.5 * Avg_Service_Time)
+    - RT Minimo         : 0.002s
+    - RT Medio          : 0.425s
+    - RT Mediano        : 0.004s
+    - RT Massimo        : 8.870s
+  [Server Interno (Serverledge)]
+    - Esecuzioni Valide : 236
+    - Scartate/Respinte : 1684 (API Gateway Drop o Timeout)
+    - Warm Starts       : 113
+    - Cold Starts       : 123 (52.1% delle valide)
+    - Tempo in Coda     : Medio = 2.4288s | Max = 7.5888s
+    - Tempo di Calcolo  : Min = 0.2033s | Mediano = 0.2100s | Medio = 0.2091s | Max = 0.2212s

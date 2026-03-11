@@ -1,0 +1,960 @@
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.007886328,"IsWarmStart":true,"InitTime":0.00015396,"QueueingTime":0,"OffloadLatency":0,"Duration":0.007731783,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.007667699,"IsWarmStart":true,"InitTime":0.000102684,"QueueingTime":0,"OffloadLatency":0,"Duration":0.007564774,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.003305033,"IsWarmStart":true,"InitTime":0.000231271,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003073288,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.00604352,"IsWarmStart":true,"InitTime":0.000224376,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005818913,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":1.06788766,"IsWarmStart":false,"InitTime":1.056650881,"QueueingTime":0,"OffloadLatency":0,"Duration":0.011236213999999967,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":1.111575576,"IsWarmStart":false,"InitTime":1.09990895,"QueueingTime":0,"OffloadLatency":0,"Duration":0.011666066999999947,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":1.134196498,"IsWarmStart":false,"InitTime":1.1247823750000001,"QueueingTime":0,"OffloadLatency":0,"Duration":0.009413498999999992,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004845073,"IsWarmStart":true,"InitTime":0.000328758,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004515734,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004523948,"IsWarmStart":true,"InitTime":0.000176325,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004347015,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004766314,"IsWarmStart":true,"InitTime":0.000297182,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004468547,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004155511,"IsWarmStart":true,"InitTime":0.000181499,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003973465,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004602025,"IsWarmStart":true,"InitTime":0.000437622,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004163781,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004719533,"IsWarmStart":true,"InitTime":0.000313709,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004405164,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004266113,"IsWarmStart":true,"InitTime":0.000104505,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00416103,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004528911,"IsWarmStart":true,"InitTime":0.000136803,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004391567,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004591622,"IsWarmStart":true,"InitTime":0.000252099,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004338651,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004194134,"IsWarmStart":true,"InitTime":0.000169003,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00402449,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004121547,"IsWarmStart":true,"InitTime":0.000130659,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003990287,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.005656379,"IsWarmStart":true,"InitTime":0.000254168,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005401587,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004522538,"IsWarmStart":true,"InitTime":0.000244404,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004277303,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004808974,"IsWarmStart":true,"InitTime":0.000154554,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004653906,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004875021,"IsWarmStart":true,"InitTime":0.000306,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004568296,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004363522,"IsWarmStart":true,"InitTime":0.000125927,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004237065,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004235145,"IsWarmStart":true,"InitTime":0.000121838,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004112543,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004180857,"IsWarmStart":true,"InitTime":0.000139984,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004040282,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004337616,"IsWarmStart":true,"InitTime":0.000209009,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004128022,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.005118239,"IsWarmStart":true,"InitTime":0.000206553,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004911064,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004582343,"IsWarmStart":true,"InitTime":0.00012376,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004457983,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004432668,"IsWarmStart":true,"InitTime":0.0001596,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004272438,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004624937,"IsWarmStart":true,"InitTime":0.000208182,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004416182,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.00456162,"IsWarmStart":true,"InitTime":0.000169355,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004391622,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004454968,"IsWarmStart":true,"InitTime":0.00020397,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004250415,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004823454,"IsWarmStart":true,"InitTime":0.000295785,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004527076,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004632151,"IsWarmStart":true,"InitTime":0.00030275,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004328844,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004504269,"IsWarmStart":true,"InitTime":0.000161054,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004342588,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004257778,"IsWarmStart":true,"InitTime":0.000144811,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004112371,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004096912,"IsWarmStart":true,"InitTime":0.000182543,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003913796,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004860002,"IsWarmStart":true,"InitTime":0.000273287,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004586142,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.0051398,"IsWarmStart":true,"InitTime":0.000222858,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004916302,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.005622351,"IsWarmStart":true,"InitTime":0.000341904,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005279927,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004609571,"IsWarmStart":true,"InitTime":0.000126112,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004482973,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004851477,"IsWarmStart":true,"InitTime":0.000127018,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004723998,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.00454553,"IsWarmStart":true,"InitTime":0.000201771,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004343163,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004532864,"IsWarmStart":true,"InitTime":0.000121286,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004410933,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004383947,"IsWarmStart":true,"InitTime":0.000115463,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004267837,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004382687,"IsWarmStart":true,"InitTime":0.000125814,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004256221,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.005381723,"IsWarmStart":true,"InitTime":0.00049174,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004889325,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004728338,"IsWarmStart":true,"InitTime":0.00029595,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00443182,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004549369,"IsWarmStart":true,"InitTime":0.000121219,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004427521,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004494264,"IsWarmStart":true,"InitTime":0.000120691,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004373012,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004194741,"IsWarmStart":true,"InitTime":0.00016471,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004029407,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004478667,"IsWarmStart":true,"InitTime":0.000137467,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004340566,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004683173,"IsWarmStart":true,"InitTime":0.000128428,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004554091,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004443501,"IsWarmStart":true,"InitTime":0.000134082,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004308813,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.003807639,"IsWarmStart":true,"InitTime":0.000119588,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00368747,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004146499,"IsWarmStart":true,"InitTime":0.000121465,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004024459,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004609639,"IsWarmStart":true,"InitTime":0.000164772,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004444249,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.003661361,"IsWarmStart":true,"InitTime":0.000116297,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003544482,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.00417552,"IsWarmStart":true,"InitTime":0.000183618,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003991285,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.00414766,"IsWarmStart":true,"InitTime":0.0001792,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003967843,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004349396,"IsWarmStart":true,"InitTime":0.000175635,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004173191,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004062892,"IsWarmStart":true,"InitTime":0.000119192,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003943087,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004470591,"IsWarmStart":true,"InitTime":0.00059069,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003879307,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.006276965,"IsWarmStart":true,"InitTime":0.000121517,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006154839,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004440846,"IsWarmStart":true,"InitTime":0.000149794,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004290423,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004174177,"IsWarmStart":true,"InitTime":0.000145729,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004027817,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004563008,"IsWarmStart":true,"InitTime":0.000127827,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004434591,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004366164,"IsWarmStart":true,"InitTime":0.000135831,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004229836,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004553455,"IsWarmStart":true,"InitTime":0.00015327,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004399606,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004452075,"IsWarmStart":true,"InitTime":0.000372698,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004078878,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.003997356,"IsWarmStart":true,"InitTime":0.000124885,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003871813,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.00438382,"IsWarmStart":true,"InitTime":0.000197281,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004185977,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004526417,"IsWarmStart":true,"InitTime":0.000204948,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004320933,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004720578,"IsWarmStart":true,"InitTime":0.000121112,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004598865,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004645533,"IsWarmStart":true,"InitTime":0.000130256,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004514502,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.005113315,"IsWarmStart":true,"InitTime":0.000190903,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004921814,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.003936721,"IsWarmStart":true,"InitTime":0.000130302,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003805856,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004347122,"IsWarmStart":true,"InitTime":0.000122158,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004224335,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004524575,"IsWarmStart":true,"InitTime":0.000262503,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00426125,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.00442576,"IsWarmStart":true,"InitTime":0.000223425,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004201761,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004969553,"IsWarmStart":true,"InitTime":0.000268443,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00470048,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004639324,"IsWarmStart":true,"InitTime":0.000118626,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004519856,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.00415113,"IsWarmStart":true,"InitTime":0.000119615,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004030937,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.005172702,"IsWarmStart":true,"InitTime":0.000460628,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004711545,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.0043411,"IsWarmStart":true,"InitTime":0.000300811,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004039873,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.00437334,"IsWarmStart":true,"InitTime":0.000224626,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004148113,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004048092,"IsWarmStart":true,"InitTime":0.000143557,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003903939,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004497293,"IsWarmStart":true,"InitTime":0.000160384,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004336252,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004010915,"IsWarmStart":true,"InitTime":0.000261274,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003749045,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.003750273,"IsWarmStart":true,"InitTime":0.000125275,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003624431,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.003847028,"IsWarmStart":true,"InitTime":0.000117984,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003728438,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004011947,"IsWarmStart":true,"InitTime":0.000115367,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003896011,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004494303,"IsWarmStart":true,"InitTime":0.00013279,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004360888,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004041651,"IsWarmStart":true,"InitTime":0.000198742,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003842339,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004158532,"IsWarmStart":true,"InitTime":0.000125909,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004032034,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004358746,"IsWarmStart":true,"InitTime":0.00013734,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004220853,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004784254,"IsWarmStart":true,"InitTime":0.000363865,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004419833,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004451852,"IsWarmStart":true,"InitTime":0.000123726,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004327562,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004886615,"IsWarmStart":true,"InitTime":0.000206009,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004679988,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.00448857,"IsWarmStart":true,"InitTime":0.000145168,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004342905,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004298393,"IsWarmStart":true,"InitTime":0.000393033,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003904819,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.005341802,"IsWarmStart":true,"InitTime":0.000217474,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00512375,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004368001,"IsWarmStart":true,"InitTime":0.000132475,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004234926,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004444583,"IsWarmStart":true,"InitTime":0.000194055,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004249941,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.005010004,"IsWarmStart":true,"InitTime":0.000195749,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004813861,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004160449,"IsWarmStart":true,"InitTime":0.000123476,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004036348,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004481782,"IsWarmStart":true,"InitTime":0.000132445,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004348696,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.003950081,"IsWarmStart":true,"InitTime":0.000278297,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003671183,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004161197,"IsWarmStart":true,"InitTime":0.000123642,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004036944,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004150003,"IsWarmStart":true,"InitTime":0.000209078,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003940345,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004685117,"IsWarmStart":true,"InitTime":0.00011952,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004564963,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.003870138,"IsWarmStart":true,"InitTime":0.000158605,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003710978,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004512528,"IsWarmStart":true,"InitTime":0.00017545,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004336411,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004805604,"IsWarmStart":true,"InitTime":0.000464282,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004340548,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004389579,"IsWarmStart":true,"InitTime":0.000194782,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004194019,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004552026,"IsWarmStart":true,"InitTime":0.000201912,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004349385,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.005672464,"IsWarmStart":true,"InitTime":0.000180886,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005491219,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004187943,"IsWarmStart":true,"InitTime":0.00021159,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003975736,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004565094,"IsWarmStart":true,"InitTime":0.000309875,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004254612,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.005268646,"IsWarmStart":true,"InitTime":0.000178442,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005089508,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004230342,"IsWarmStart":true,"InitTime":0.000147925,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004081815,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004560454,"IsWarmStart":true,"InitTime":0.000136704,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004423091,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004430978,"IsWarmStart":true,"InitTime":0.000143074,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004287286,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004664395,"IsWarmStart":true,"InitTime":0.000285164,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004378616,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.00435671,"IsWarmStart":true,"InitTime":0.000170575,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004185479,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.007502376,"IsWarmStart":true,"InitTime":0.000196781,"QueueingTime":0,"OffloadLatency":0,"Duration":0.007305037,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004251535,"IsWarmStart":true,"InitTime":0.000187021,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004063676,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004252457,"IsWarmStart":true,"InitTime":0.000148328,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004103386,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.00387883,"IsWarmStart":true,"InitTime":0.000116704,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003761562,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.003781525,"IsWarmStart":true,"InitTime":0.000117547,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00366337,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.003743671,"IsWarmStart":true,"InitTime":0.000117387,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003625677,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.003974068,"IsWarmStart":true,"InitTime":0.00011701,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003856473,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004396338,"IsWarmStart":true,"InitTime":0.000206204,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004189596,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004093541,"IsWarmStart":true,"InitTime":0.000124052,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003968891,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.00401881,"IsWarmStart":true,"InitTime":0.000161802,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003856365,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004116382,"IsWarmStart":true,"InitTime":0.000116678,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003999059,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004727183,"IsWarmStart":true,"InitTime":0.00011977,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00460696,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004412784,"IsWarmStart":true,"InitTime":0.00025545,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004156735,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004796667,"IsWarmStart":true,"InitTime":0.000300724,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004495353,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004048935,"IsWarmStart":true,"InitTime":0.000113248,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003935127,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004023953,"IsWarmStart":true,"InitTime":0.000195775,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003827638,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.003904349,"IsWarmStart":true,"InitTime":0.000116766,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003786988,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004085242,"IsWarmStart":true,"InitTime":0.000251258,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003833403,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004710547,"IsWarmStart":true,"InitTime":0.000210522,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004499417,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004671382,"IsWarmStart":true,"InitTime":0.00032662,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00434418,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004285911,"IsWarmStart":true,"InitTime":0.000164733,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004120596,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004206959,"IsWarmStart":true,"InitTime":0.000130154,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004076244,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004701406,"IsWarmStart":true,"InitTime":0.000184567,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004516302,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.003865278,"IsWarmStart":true,"InitTime":0.000232245,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00363246,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004096014,"IsWarmStart":true,"InitTime":0.00016825,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003927106,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004456058,"IsWarmStart":true,"InitTime":0.000115719,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004339725,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.00428677,"IsWarmStart":true,"InitTime":0.000118214,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004167963,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004272042,"IsWarmStart":true,"InitTime":0.000147622,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004123831,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004018147,"IsWarmStart":true,"InitTime":0.000115019,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003902552,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.00370181,"IsWarmStart":true,"InitTime":0.000112734,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003588433,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004596956,"IsWarmStart":true,"InitTime":0.000168525,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004427774,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.00390272,"IsWarmStart":true,"InitTime":0.000121332,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003780788,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004574822,"IsWarmStart":true,"InitTime":0.000116688,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004457571,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004093019,"IsWarmStart":true,"InitTime":0.000138793,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003953584,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.003879433,"IsWarmStart":true,"InitTime":0.00011767,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00376119,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004448776,"IsWarmStart":true,"InitTime":0.000295533,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004152646,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.00407244,"IsWarmStart":true,"InitTime":0.000169057,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003902777,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004322816,"IsWarmStart":true,"InitTime":0.000144851,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004177398,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.003977919,"IsWarmStart":true,"InitTime":0.000165853,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003811498,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004162256,"IsWarmStart":true,"InitTime":0.00018683,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003974834,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004235353,"IsWarmStart":true,"InitTime":0.000117288,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004117435,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.00426209,"IsWarmStart":true,"InitTime":0.000202934,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004058619,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004287284,"IsWarmStart":true,"InitTime":0.000131426,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004155248,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004530797,"IsWarmStart":true,"InitTime":0.000187232,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004343006,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004180585,"IsWarmStart":true,"InitTime":0.000123787,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004056235,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004403832,"IsWarmStart":true,"InitTime":0.000214242,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004189012,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004199171,"IsWarmStart":true,"InitTime":0.000186501,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004012274,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004127481,"IsWarmStart":true,"InitTime":0.000109039,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003991457,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.00395271,"IsWarmStart":true,"InitTime":0.000182586,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003769482,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.00401957,"IsWarmStart":true,"InitTime":0.000116061,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003902957,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004057033,"IsWarmStart":true,"InitTime":0.000188371,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003868021,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004903815,"IsWarmStart":true,"InitTime":0.000278669,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004624541,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004058659,"IsWarmStart":true,"InitTime":0.000141931,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003916103,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004759176,"IsWarmStart":true,"InitTime":0.000206215,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004552351,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.00399118,"IsWarmStart":true,"InitTime":0.000123461,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003867094,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.003847234,"IsWarmStart":true,"InitTime":0.000119774,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003726893,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.005064672,"IsWarmStart":true,"InitTime":0.000348733,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004715225,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004484912,"IsWarmStart":true,"InitTime":0.00026839,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004215718,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004567701,"IsWarmStart":true,"InitTime":0.000120291,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00444686,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.003692347,"IsWarmStart":true,"InitTime":0.00012365,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003568118,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004179713,"IsWarmStart":true,"InitTime":0.000122206,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004056878,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004089029,"IsWarmStart":true,"InitTime":0.000304505,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003783843,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.003838607,"IsWarmStart":true,"InitTime":0.000121031,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00371698,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004103887,"IsWarmStart":true,"InitTime":0.000118322,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003984962,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004399068,"IsWarmStart":true,"InitTime":0.000128741,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004269752,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.00642434,"IsWarmStart":true,"InitTime":0.00011305,"QueueingTime":0,"OffloadLatency":0,"Duration":0.0063108,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.0043891,"IsWarmStart":true,"InitTime":0.000128761,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004259768,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.003984391,"IsWarmStart":true,"InitTime":0.00012539,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003858424,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004157954,"IsWarmStart":true,"InitTime":0.00011577,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004041603,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004579379,"IsWarmStart":true,"InitTime":0.000137654,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004441107,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.006933628,"IsWarmStart":true,"InitTime":0.000113438,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006819588,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.007286803,"IsWarmStart":true,"InitTime":0.000208143,"QueueingTime":0,"OffloadLatency":0,"Duration":0.007078038,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004549051,"IsWarmStart":true,"InitTime":0.000241362,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004307053,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004220263,"IsWarmStart":true,"InitTime":0.000199973,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00401967,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004176682,"IsWarmStart":true,"InitTime":0.000123629,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004052428,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004116038,"IsWarmStart":true,"InitTime":0.000123664,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003991873,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004317659,"IsWarmStart":true,"InitTime":0.000121907,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004195184,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004514378,"IsWarmStart":true,"InitTime":0.000141769,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004372033,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004200832,"IsWarmStart":true,"InitTime":0.000182399,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00401784,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004006279,"IsWarmStart":true,"InitTime":0.00012177,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003883887,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004116719,"IsWarmStart":true,"InitTime":0.000116853,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003999245,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004240364,"IsWarmStart":true,"InitTime":0.000223946,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00401584,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004511613,"IsWarmStart":true,"InitTime":0.000209544,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004301564,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004082392,"IsWarmStart":true,"InitTime":0.000279521,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003802306,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004645353,"IsWarmStart":true,"InitTime":0.000284667,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004360093,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004198092,"IsWarmStart":true,"InitTime":0.000175865,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004021638,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004647188,"IsWarmStart":true,"InitTime":0.00019308,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004453523,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004409916,"IsWarmStart":true,"InitTime":0.000126035,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00428332,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004285951,"IsWarmStart":true,"InitTime":0.000125101,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004160349,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.005057335,"IsWarmStart":true,"InitTime":0.000331194,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004725523,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.005215393,"IsWarmStart":true,"InitTime":0.000138737,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005076187,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004137561,"IsWarmStart":true,"InitTime":0.000130287,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004006627,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.003707715,"IsWarmStart":true,"InitTime":0.000183701,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003523421,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004303037,"IsWarmStart":true,"InitTime":0.000217672,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004084739,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004075161,"IsWarmStart":true,"InitTime":0.000222257,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003852346,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.00407366,"IsWarmStart":true,"InitTime":0.000148668,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003924551,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004486009,"IsWarmStart":true,"InitTime":0.000176329,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004309014,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004726351,"IsWarmStart":true,"InitTime":0.000387838,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004337926,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004038371,"IsWarmStart":true,"InitTime":0.000113004,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003924804,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004105982,"IsWarmStart":true,"InitTime":0.000143165,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003962261,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.003977773,"IsWarmStart":true,"InitTime":0.000120574,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003856517,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.00449347,"IsWarmStart":true,"InitTime":0.000250502,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004242376,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.007624117,"IsWarmStart":true,"InitTime":0.00013587,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00748752,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004063802,"IsWarmStart":true,"InitTime":0.000159333,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003903824,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004642947,"IsWarmStart":true,"InitTime":0.000320361,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004322012,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004054152,"IsWarmStart":true,"InitTime":0.000152176,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003901362,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004775935,"IsWarmStart":true,"InitTime":0.000205522,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004569857,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004039305,"IsWarmStart":true,"InitTime":0.000118819,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003919805,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004022833,"IsWarmStart":true,"InitTime":0.000118612,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003903614,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004212648,"IsWarmStart":true,"InitTime":0.00014194,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004069908,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004300476,"IsWarmStart":true,"InitTime":0.00016369,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004136203,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004583748,"IsWarmStart":true,"InitTime":0.000289364,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004293847,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004105784,"IsWarmStart":true,"InitTime":0.000130653,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003974571,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004784517,"IsWarmStart":true,"InitTime":0.000131436,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004652299,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.00381662,"IsWarmStart":true,"InitTime":0.000243918,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003572077,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004883274,"IsWarmStart":true,"InitTime":0.0001457,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004737122,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004612073,"IsWarmStart":true,"InitTime":0.000117489,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004493818,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004462845,"IsWarmStart":true,"InitTime":0.000190774,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004271489,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.006898205,"IsWarmStart":true,"InitTime":0.000119006,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006778702,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004441083,"IsWarmStart":true,"InitTime":0.000205403,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004234824,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004191598,"IsWarmStart":true,"InitTime":0.000183338,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004007665,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004037627,"IsWarmStart":true,"InitTime":0.000226764,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003810053,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004433537,"IsWarmStart":true,"InitTime":0.000129187,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004303721,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004378965,"IsWarmStart":true,"InitTime":0.000130802,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00424763,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004094262,"IsWarmStart":true,"InitTime":0.000125012,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003968725,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004455905,"IsWarmStart":true,"InitTime":0.000127871,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004327449,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004970328,"IsWarmStart":true,"InitTime":0.000124438,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00484549,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004382734,"IsWarmStart":true,"InitTime":0.000119388,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004262755,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004247653,"IsWarmStart":true,"InitTime":0.000153866,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004093266,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.00701067,"IsWarmStart":true,"InitTime":0.000125576,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006884453,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004455685,"IsWarmStart":true,"InitTime":0.000123574,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004331497,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004052528,"IsWarmStart":true,"InitTime":0.000123632,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003928377,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.003930237,"IsWarmStart":true,"InitTime":0.000127422,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003802082,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004059703,"IsWarmStart":true,"InitTime":0.000114552,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00394462,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004111756,"IsWarmStart":true,"InitTime":0.00011849,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00399273,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004136025,"IsWarmStart":true,"InitTime":0.000126397,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004009038,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004641966,"IsWarmStart":true,"InitTime":0.000146872,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004494525,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004226312,"IsWarmStart":true,"InitTime":0.000141416,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004084363,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004058305,"IsWarmStart":true,"InitTime":0.000120405,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003937308,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.003936875,"IsWarmStart":true,"InitTime":0.000139312,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003796962,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004172627,"IsWarmStart":true,"InitTime":0.000121554,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004050492,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004131889,"IsWarmStart":true,"InitTime":0.000122647,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004008601,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004720687,"IsWarmStart":true,"InitTime":0.000159715,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004560371,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.00481745,"IsWarmStart":true,"InitTime":0.000120519,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004696312,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.005186054,"IsWarmStart":true,"InitTime":0.000119547,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005065928,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004327897,"IsWarmStart":true,"InitTime":0.00012355,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00420395,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004169727,"IsWarmStart":true,"InitTime":0.000125734,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004043335,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004074083,"IsWarmStart":true,"InitTime":0.000190541,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003882964,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004363044,"IsWarmStart":true,"InitTime":0.000128284,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00423411,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.00389034,"IsWarmStart":true,"InitTime":0.000188711,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003701011,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004006068,"IsWarmStart":true,"InitTime":0.000118029,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003887401,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.003996964,"IsWarmStart":true,"InitTime":0.000147642,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003848793,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004157717,"IsWarmStart":true,"InitTime":0.000149129,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004008121,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.005430222,"IsWarmStart":true,"InitTime":0.000180255,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00524936,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004490765,"IsWarmStart":true,"InitTime":0.000188877,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004301283,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004565938,"IsWarmStart":true,"InitTime":0.000117019,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004448304,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004305275,"IsWarmStart":true,"InitTime":0.000224889,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004079744,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004586442,"IsWarmStart":true,"InitTime":0.000298844,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004287049,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.003971407,"IsWarmStart":true,"InitTime":0.000118229,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003852562,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004186582,"IsWarmStart":true,"InitTime":0.000181345,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004004692,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.007686061,"IsWarmStart":true,"InitTime":0.000114005,"QueueingTime":0,"OffloadLatency":0,"Duration":0.007571473,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004497097,"IsWarmStart":true,"InitTime":0.000126088,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004370428,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.006956765,"IsWarmStart":true,"InitTime":0.000379349,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006576855,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004080081,"IsWarmStart":true,"InitTime":0.000132251,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003947249,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.00428262,"IsWarmStart":true,"InitTime":0.000125623,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004156469,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004149568,"IsWarmStart":true,"InitTime":0.00010496,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004043954,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004474626,"IsWarmStart":true,"InitTime":0.000138635,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004335459,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004444948,"IsWarmStart":true,"InitTime":0.000375454,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004068902,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.003897509,"IsWarmStart":true,"InitTime":0.000132922,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003763985,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004339677,"IsWarmStart":true,"InitTime":0.000148206,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004190906,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.003810599,"IsWarmStart":true,"InitTime":0.000205499,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003604452,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004908785,"IsWarmStart":true,"InitTime":0.000181147,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004727128,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004578216,"IsWarmStart":true,"InitTime":0.000132624,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004444987,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.004084218,"IsWarmStart":true,"InitTime":0.000138645,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003944527,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.00467833,"IsWarmStart":true,"InitTime":0.000310129,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004367666,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004445845,"IsWarmStart":true,"InitTime":0.000129751,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004315452,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004058542,"IsWarmStart":true,"InitTime":0.000143616,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003914317,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.003998673,"IsWarmStart":true,"InitTime":0.000126183,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003871911,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004086692,"IsWarmStart":true,"InitTime":0.000139768,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003946359,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004274399,"IsWarmStart":true,"InitTime":0.000193521,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004080297,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.005252956,"IsWarmStart":true,"InitTime":0.000201513,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005050971,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.006963666,"IsWarmStart":true,"InitTime":0.000123866,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006839179,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.003667436,"IsWarmStart":true,"InitTime":0.000113384,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003553458,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004704092,"IsWarmStart":true,"InitTime":0.000353749,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004349718,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.003914441,"IsWarmStart":true,"InitTime":0.00012551,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003788331,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.003759084,"IsWarmStart":true,"InitTime":0.000130587,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003627921,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.006501675,"IsWarmStart":true,"InitTime":0.000116216,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006384846,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.007861887,"IsWarmStart":true,"InitTime":0.000125286,"QueueingTime":0,"OffloadLatency":0,"Duration":0.007735813,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004223577,"IsWarmStart":true,"InitTime":0.000190902,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004032008,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.006388983,"IsWarmStart":true,"InitTime":0.000115002,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006273484,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004815738,"IsWarmStart":true,"InitTime":0.000548238,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004266883,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.005027633,"IsWarmStart":true,"InitTime":0.000116841,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00491014,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004175192,"IsWarmStart":true,"InitTime":0.000120851,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004053735,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004257697,"IsWarmStart":true,"InitTime":0.000189495,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004067641,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004453785,"IsWarmStart":true,"InitTime":0.000172099,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004281077,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004185055,"IsWarmStart":true,"InitTime":0.000177646,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004006815,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004090787,"IsWarmStart":true,"InitTime":0.000142326,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003947969,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.00379221,"IsWarmStart":true,"InitTime":0.000123533,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003668091,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004789774,"IsWarmStart":true,"InitTime":0.000224165,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004564985,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004153976,"IsWarmStart":true,"InitTime":0.000147255,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004006153,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004480214,"IsWarmStart":true,"InitTime":0.00012192,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004357685,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.006526998,"IsWarmStart":true,"InitTime":0.000805913,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005720568,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004419102,"IsWarmStart":true,"InitTime":0.000204339,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004214161,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004397079,"IsWarmStart":true,"InitTime":0.000174023,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004222433,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.00432299,"IsWarmStart":true,"InitTime":0.000126036,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004196432,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004225747,"IsWarmStart":true,"InitTime":0.000119163,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004106001,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004602468,"IsWarmStart":true,"InitTime":0.000424958,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004176987,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004218854,"IsWarmStart":true,"InitTime":0.000118804,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004099472,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004164172,"IsWarmStart":true,"InitTime":0.000158599,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004004961,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004503205,"IsWarmStart":true,"InitTime":0.000117745,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004384841,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004021225,"IsWarmStart":true,"InitTime":0.000131418,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00388929,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004240671,"IsWarmStart":true,"InitTime":0.000119349,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004120708,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004926083,"IsWarmStart":true,"InitTime":0.00011732,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004808054,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004395382,"IsWarmStart":true,"InitTime":0.000136153,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00425864,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004934996,"IsWarmStart":true,"InitTime":0.000343914,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004590472,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004002751,"IsWarmStart":true,"InitTime":0.000115999,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003886099,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004344248,"IsWarmStart":true,"InitTime":0.000131584,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004212039,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004535166,"IsWarmStart":true,"InitTime":0.000132082,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004402499,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.005557587,"IsWarmStart":true,"InitTime":0.000629013,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004928009,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.003865118,"IsWarmStart":true,"InitTime":0.000116216,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003748269,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.003960843,"IsWarmStart":true,"InitTime":0.000118171,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003842103,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004065511,"IsWarmStart":true,"InitTime":0.000191967,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00387297,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004186731,"IsWarmStart":true,"InitTime":0.000126437,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004059717,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.003931926,"IsWarmStart":true,"InitTime":0.000432144,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003499273,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004678382,"IsWarmStart":true,"InitTime":0.000177852,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00449983,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004063604,"IsWarmStart":true,"InitTime":0.000175698,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003887321,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004839231,"IsWarmStart":true,"InitTime":0.000118743,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004719865,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004415735,"IsWarmStart":true,"InitTime":0.000137816,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004277289,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004084379,"IsWarmStart":true,"InitTime":0.000159041,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00392475,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.003827138,"IsWarmStart":true,"InitTime":0.000194941,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00363161,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.004316716,"IsWarmStart":true,"InitTime":0.000316903,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003999186,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004680052,"IsWarmStart":true,"InitTime":0.000215952,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004463507,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004043612,"IsWarmStart":true,"InitTime":0.000120342,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003922617,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004090089,"IsWarmStart":true,"InitTime":0.000117909,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003971612,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.003997499,"IsWarmStart":true,"InitTime":0.000115049,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003881876,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004652998,"IsWarmStart":true,"InitTime":0.000125916,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004526528,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.003863353,"IsWarmStart":true,"InitTime":0.000122977,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003739766,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.003661007,"IsWarmStart":true,"InitTime":0.000122413,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003538025,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.00414768,"IsWarmStart":true,"InitTime":0.000135358,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004011687,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004159194,"IsWarmStart":true,"InitTime":0.000221251,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003937354,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004200249,"IsWarmStart":true,"InitTime":0.000126719,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004072888,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004056045,"IsWarmStart":true,"InitTime":0.000147009,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003908483,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004303235,"IsWarmStart":true,"InitTime":0.000123638,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004178914,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004491525,"IsWarmStart":true,"InitTime":0.000158667,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004332276,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004120022,"IsWarmStart":true,"InitTime":0.000160957,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003958467,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004073555,"IsWarmStart":true,"InitTime":0.000129521,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003943496,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004548638,"IsWarmStart":true,"InitTime":0.00011932,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004428757,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.005200124,"IsWarmStart":true,"InitTime":0.000145357,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005054159,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.004125747,"IsWarmStart":true,"InitTime":0.000205375,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003919718,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004275956,"IsWarmStart":true,"InitTime":0.000124362,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004151128,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.003921458,"IsWarmStart":true,"InitTime":0.000157823,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003763018,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004129905,"IsWarmStart":true,"InitTime":0.000120879,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004008389,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004410849,"IsWarmStart":true,"InitTime":0.000121986,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004288193,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004330801,"IsWarmStart":true,"InitTime":0.000190956,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004139239,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004220601,"IsWarmStart":true,"InitTime":0.000179688,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004040354,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004742655,"IsWarmStart":true,"InitTime":0.000120916,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004621108,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004006529,"IsWarmStart":true,"InitTime":0.000216782,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003789137,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004229466,"IsWarmStart":true,"InitTime":0.000167307,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004061606,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.00421848,"IsWarmStart":true,"InitTime":0.000121854,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004095918,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004152749,"IsWarmStart":true,"InitTime":0.000130655,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004021485,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004446419,"IsWarmStart":true,"InitTime":0.000118637,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004327187,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004129111,"IsWarmStart":true,"InitTime":0.000155131,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003973363,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004237653,"IsWarmStart":true,"InitTime":0.000114905,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004122119,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.003803969,"IsWarmStart":true,"InitTime":0.000120685,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003682739,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.003983883,"IsWarmStart":true,"InitTime":0.000173962,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003809326,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004156203,"IsWarmStart":true,"InitTime":0.000124865,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004030933,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004174233,"IsWarmStart":true,"InitTime":0.00013275,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00404087,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.004291746,"IsWarmStart":true,"InitTime":0.000172408,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004118692,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004115005,"IsWarmStart":true,"InitTime":0.000120886,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003993559,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.003926008,"IsWarmStart":true,"InitTime":0.000130674,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003794676,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.003945437,"IsWarmStart":true,"InitTime":0.00014583,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003799006,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004274742,"IsWarmStart":true,"InitTime":0.000289874,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003984199,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.003984823,"IsWarmStart":true,"InitTime":0.0002287,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003755566,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.004068693,"IsWarmStart":true,"InitTime":0.000211869,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003856197,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.004007732,"IsWarmStart":true,"InitTime":0.000121245,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003885916,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.003741552,"IsWarmStart":true,"InitTime":0.000172605,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003568373,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004259172,"IsWarmStart":true,"InitTime":0.000121981,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004136566,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004177196,"IsWarmStart":true,"InitTime":0.000184422,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003992102,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.0037455,"IsWarmStart":true,"InitTime":0.000133353,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003611584,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.003805533,"IsWarmStart":true,"InitTime":0.000124042,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003680865,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.004315793,"IsWarmStart":true,"InitTime":0.000153778,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004161388,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.004248984,"IsWarmStart":true,"InitTime":0.000116245,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004132081,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.003545632,"IsWarmStart":true,"InitTime":0.000135088,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003409959,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.003793474,"IsWarmStart":true,"InitTime":0.000115339,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003677559,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004073934,"IsWarmStart":true,"InitTime":0.000118808,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00395453,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004636416,"IsWarmStart":true,"InitTime":0.000356503,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004279435,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004679601,"IsWarmStart":true,"InitTime":0.00014338,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004535626,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.003959157,"IsWarmStart":true,"InitTime":0.000118915,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003839613,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.003776094,"IsWarmStart":true,"InitTime":0.000175185,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003600297,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004582687,"IsWarmStart":true,"InitTime":0.000129674,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004452423,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.004630896,"IsWarmStart":true,"InitTime":0.000371154,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004259141,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.005434904,"IsWarmStart":true,"InitTime":0.000191274,"QueueingTime":0,"OffloadLatency":0,"Duration":0.005242966,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004491181,"IsWarmStart":true,"InitTime":0.000119613,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004370917,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004378458,"IsWarmStart":true,"InitTime":0.000315307,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004062575,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.00424697,"IsWarmStart":true,"InitTime":0.000119961,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004126396,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004293065,"IsWarmStart":true,"InitTime":0.00012652,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004165936,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.006637762,"IsWarmStart":true,"InitTime":0.00020974,"QueueingTime":0,"OffloadLatency":0,"Duration":0.006427344,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.004262296,"IsWarmStart":true,"InitTime":0.000123411,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004138323,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":0.003967904,"IsWarmStart":true,"InitTime":0.000182406,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003784975,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004354639,"IsWarmStart":true,"InitTime":0.000116623,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004237386,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.00438438,"IsWarmStart":true,"InitTime":0.000147583,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004236136,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.003957329,"IsWarmStart":true,"InitTime":0.000113841,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003842853,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.004245851,"IsWarmStart":true,"InitTime":0.00011467,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004130523,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004147595,"IsWarmStart":true,"InitTime":0.000132162,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004014828,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.00295459,"IsWarmStart":true,"InitTime":0.000135303,"QueueingTime":0,"OffloadLatency":0,"Duration":0.002818681,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.003949493,"IsWarmStart":true,"InitTime":0.000190045,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003758933,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.003677513,"IsWarmStart":true,"InitTime":0.00012796,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003548948,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.003766438,"IsWarmStart":true,"InitTime":0.000118747,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003646997,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004138983,"IsWarmStart":true,"InitTime":0.000143766,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003994586,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004306926,"IsWarmStart":true,"InitTime":0.000182896,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004123376,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004377193,"IsWarmStart":true,"InitTime":0.000115302,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004261218,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.003723693,"IsWarmStart":true,"InitTime":0.000117181,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003605951,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004283274,"IsWarmStart":true,"InitTime":0.000119705,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004162942,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004041687,"IsWarmStart":true,"InitTime":0.000195839,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003845315,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004170489,"IsWarmStart":true,"InitTime":0.00014579,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004024129,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.003873477,"IsWarmStart":true,"InitTime":0.000201527,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003671353,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004042157,"IsWarmStart":true,"InitTime":0.000181689,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003859909,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.00424556,"IsWarmStart":true,"InitTime":0.00019573,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004049243,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.00399403,"IsWarmStart":true,"InitTime":0.000128988,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003864464,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.00419561,"IsWarmStart":true,"InitTime":0.000210311,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003984723,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.004532067,"IsWarmStart":true,"InitTime":0.000128849,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004402584,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377\"","ResponseTime":0.004715196,"IsWarmStart":true,"InitTime":0.000121644,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004593055,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.004002808,"IsWarmStart":true,"InitTime":0.000117063,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003885132,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":0.003846042,"IsWarmStart":true,"InitTime":0.000113319,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00373217,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":0.003733188,"IsWarmStart":true,"InitTime":0.000156335,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003576234,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":0.004182521,"IsWarmStart":true,"InitTime":0.000216856,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003965063,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":0.004057262,"IsWarmStart":true,"InitTime":0.000112688,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003944005,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":0.004034582,"IsWarmStart":true,"InitTime":0.000117244,"QueueingTime":0,"OffloadLatency":0,"Duration":0.0039167,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711\"","ResponseTime":0.003810417,"IsWarmStart":true,"InitTime":0.000117865,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003691947,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":0.003875726,"IsWarmStart":true,"InitTime":0.000113884,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003761175,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":0.004481527,"IsWarmStart":true,"InitTime":0.000146488,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004334495,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":0.004636059,"IsWarmStart":true,"InitTime":0.000149809,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004485598,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":0.004040485,"IsWarmStart":true,"InitTime":0.000168544,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003871315,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":0.003969521,"IsWarmStart":true,"InitTime":0.000127411,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003841481,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":0.004401047,"IsWarmStart":true,"InitTime":0.000131291,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004269147,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.00446002,"IsWarmStart":true,"InitTime":0.000207653,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004251789,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.003805707,"IsWarmStart":true,"InitTime":0.000113274,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003691815,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004439743,"IsWarmStart":true,"InitTime":0.000190254,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004248856,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.004537364,"IsWarmStart":true,"InitTime":0.000121669,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004415146,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":0.003813336,"IsWarmStart":true,"InitTime":0.000113483,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003699348,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":0.003600459,"IsWarmStart":true,"InitTime":0.000123161,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003476724,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":0.004272367,"IsWarmStart":true,"InitTime":0.000182852,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004088911,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":0.004121542,"IsWarmStart":true,"InitTime":0.000121944,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003998924,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811\"","ResponseTime":0.004983939,"IsWarmStart":true,"InitTime":0.000218143,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004765222,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":0.004085983,"IsWarmStart":true,"InitTime":0.000165267,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003920122,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":0.004276225,"IsWarmStart":true,"InitTime":0.00025636,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004019269,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":0.003958885,"IsWarmStart":true,"InitTime":0.000117679,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003840539,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":0.003843759,"IsWarmStart":true,"InitTime":0.000115178,"QueueingTime":0,"OffloadLatency":0,"Duration":0.00372797,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":0.004090317,"IsWarmStart":true,"InitTime":0.000191196,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003898536,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":0.003958127,"IsWarmStart":true,"InitTime":0.000196581,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003760931,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":0.004733131,"IsWarmStart":true,"InitTime":0.00022101,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004511548,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":0.004451948,"IsWarmStart":true,"InitTime":0.000187942,"QueueingTime":0,"OffloadLatency":0,"Duration":0.004263363,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":0.003969522,"IsWarmStart":true,"InitTime":0.000290793,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003678026,"Output":""}
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":0.003816668,"IsWarmStart":true,"InitTime":0.00011428,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003701815,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":0.00407053,"IsWarmStart":true,"InitTime":0.000120442,"QueueingTime":0,"OffloadLatency":0,"Duration":0.003949411,"Output":""}
+

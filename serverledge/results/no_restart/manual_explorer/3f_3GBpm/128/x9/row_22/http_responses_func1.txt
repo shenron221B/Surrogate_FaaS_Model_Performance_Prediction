@@ -1,0 +1,628 @@
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":1.319191101,"IsWarmStart":false,"InitTime":1.308160019,"QueueingTime":0.23303651,"OffloadLatency":0,"Duration":0.011030489000000032,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":3.906119614,"IsWarmStart":false,"InitTime":3.894306349,"QueueingTime":2.834509488,"OffloadLatency":0,"Duration":0.011812314000000046,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987\"","ResponseTime":3.910853469,"IsWarmStart":true,"InitTime":3.9063590980000003,"QueueingTime":3.906323903,"OffloadLatency":0,"Duration":0.004493832,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2\"","ResponseTime":6.552994635,"IsWarmStart":false,"InitTime":6.540794379,"QueueingTime":5.47426941,"OffloadLatency":0,"Duration":0.012199690999999957,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":11.569477529,"IsWarmStart":false,"InitTime":11.557651642,"QueueingTime":10.492616741,"OffloadLatency":0,"Duration":0.01182519500000001,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89\"","ResponseTime":11.724851385000001,"IsWarmStart":false,"InitTime":11.713464414,"QueueingTime":10.650260241,"OffloadLatency":0,"Duration":0.011386302000000015,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":11.621600011,"IsWarmStart":false,"InitTime":11.609735659,"QueueingTime":10.528936113,"OffloadLatency":0,"Duration":0.011863654999999973,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":11.660990906,"IsWarmStart":false,"InitTime":11.647800866,"QueueingTime":10.583494368,"OffloadLatency":0,"Duration":0.013189115999999945,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8\"","ResponseTime":10.227584203,"IsWarmStart":true,"InitTime":10.222821235,"QueueingTime":10.222738084,"OffloadLatency":0,"Duration":0.004762206,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":8.969262102,"IsWarmStart":true,"InitTime":8.964794731,"QueueingTime":8.964731326,"OffloadLatency":0,"Duration":0.00446671,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":7.620532826,"IsWarmStart":true,"InitTime":7.616731434,"QueueingTime":7.616541725,"OffloadLatency":0,"Duration":0.00380076,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34\"","ResponseTime":7.70412463,"IsWarmStart":true,"InitTime":7.701033852,"QueueingTime":7.700975876,"OffloadLatency":0,"Duration":0.003090247,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":8.954299659,"IsWarmStart":false,"InitTime":8.94387534,"QueueingTime":7.856092714,"OffloadLatency":0,"Duration":0.010423881999999995,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":8.889307575,"IsWarmStart":false,"InitTime":8.878353293,"QueueingTime":7.837750109,"OffloadLatency":0,"Duration":0.010953681000000048,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418\"","ResponseTime":11.619603992,"IsWarmStart":false,"InitTime":11.604950672,"QueueingTime":10.523757774,"OffloadLatency":0,"Duration":0.014652439999999989,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":13.805522816,"IsWarmStart":false,"InitTime":13.792958642,"QueueingTime":12.747548994,"OffloadLatency":0,"Duration":0.012563663999999974,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":10.224768412,"IsWarmStart":false,"InitTime":10.212467798,"QueueingTime":9.147526966,"OffloadLatency":0,"Duration":0.01230005199999995,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1\"","ResponseTime":10.221200164,"IsWarmStart":false,"InitTime":10.208378616,"QueueingTime":9.143779508,"OffloadLatency":0,"Duration":0.012820936000000005,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":8.912054166,"IsWarmStart":true,"InitTime":8.908217184,"QueueingTime":8.908155083,"OffloadLatency":0,"Duration":0.003836389,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":7.64214486,"IsWarmStart":true,"InitTime":7.63775351,"QueueingTime":7.637686987,"OffloadLatency":0,"Duration":0.004390815,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":7.81043046,"IsWarmStart":true,"InitTime":7.806855516,"QueueingTime":7.806738967,"OffloadLatency":0,"Duration":0.003574246,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584\"","ResponseTime":7.687780813,"IsWarmStart":false,"InitTime":7.675036245,"QueueingTime":6.607228045,"OffloadLatency":0,"Duration":0.01274406699999997,"Output":""}
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229,832040\"","ResponseTime":7.695542526,"IsWarmStart":false,"InitTime":7.682400756,"QueueingTime":6.631774519,"OffloadLatency":0,"Duration":0.01314100600000001,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":6.320830648,"IsWarmStart":true,"InitTime":6.316560908,"QueueingTime":6.316529362,"OffloadLatency":0,"Duration":0.00426925,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1\"","ResponseTime":7.699676787,"IsWarmStart":false,"InitTime":7.687991405,"QueueingTime":6.618198025,"OffloadLatency":0,"Duration":0.011684841000000001,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":10.317992476,"IsWarmStart":false,"InitTime":10.305780833,"QueueingTime":9.221644733,"OffloadLatency":0,"Duration":0.012211038000000007,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":8.873028371,"IsWarmStart":true,"InitTime":8.868651038,"QueueingTime":8.868545272,"OffloadLatency":0,"Duration":0.004376843,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":7.613697158,"IsWarmStart":true,"InitTime":7.610118129,"QueueingTime":7.610029906,"OffloadLatency":0,"Duration":0.003578444,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":6.3096535,"IsWarmStart":true,"InitTime":6.306147138,"QueueingTime":6.306073235,"OffloadLatency":0,"Duration":0.003505712,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":6.36730498,"IsWarmStart":false,"InitTime":6.354431655,"QueueingTime":5.274294942,"OffloadLatency":0,"Duration":0.012872760000000039,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368\"","ResponseTime":8.967249809,"IsWarmStart":false,"InitTime":8.955264868,"QueueingTime":7.876957071,"OffloadLatency":0,"Duration":0.011984267999999965,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":7.673756721,"IsWarmStart":false,"InitTime":7.662896868,"QueueingTime":6.630229834,"OffloadLatency":0,"Duration":0.010859234999999967,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":8.981742945,"IsWarmStart":false,"InitTime":8.970039348,"QueueingTime":7.870820994,"OffloadLatency":0,"Duration":0.011703023000000035,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":7.745013872,"IsWarmStart":true,"InitTime":7.740898162,"QueueingTime":7.740795064,"OffloadLatency":0,"Duration":0.004115115,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":10.481616515,"IsWarmStart":false,"InitTime":10.470032161,"QueueingTime":9.403008423,"OffloadLatency":0,"Duration":0.011583961000000031,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597\"","ResponseTime":9.003983477,"IsWarmStart":true,"InitTime":8.999938171,"QueueingTime":8.999863210000001,"OffloadLatency":0,"Duration":0.004044625,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13\"","ResponseTime":9.109144874,"IsWarmStart":false,"InitTime":9.097656251,"QueueingTime":7.99347806,"OffloadLatency":0,"Duration":0.011487923000000011,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21\"","ResponseTime":7.812826757,"IsWarmStart":true,"InitTime":7.8089984999999995,"QueueingTime":7.808951147,"OffloadLatency":0,"Duration":0.003827584,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946\"","ResponseTime":7.9179299499999996,"IsWarmStart":true,"InitTime":7.914039425,"QueueingTime":7.914011894,"OffloadLatency":0,"Duration":0.003889883,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144\"","ResponseTime":10.597711377,"IsWarmStart":false,"InitTime":10.585199157,"QueueingTime":9.491027664,"OffloadLatency":0,"Duration":0.01251134399999998,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393\"","ResponseTime":11.79650924,"IsWarmStart":false,"InitTime":11.78521589,"QueueingTime":10.712190592,"OffloadLatency":0,"Duration":0.01129277399999995,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233\"","ResponseTime":13.118127474,"IsWarmStart":false,"InitTime":13.107014831,"QueueingTime":12.023242424,"OffloadLatency":0,"Duration":0.011112090000000019,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3\"","ResponseTime":13.063854588,"IsWarmStart":false,"InitTime":13.051361903,"QueueingTime":11.95183479,"OffloadLatency":0,"Duration":0.012492271000000055,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5\"","ResponseTime":13.167874363,"IsWarmStart":false,"InitTime":13.156115964,"QueueingTime":12.075748603,"OffloadLatency":0,"Duration":0.011757700999999954,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181\"","ResponseTime":11.730722155,"IsWarmStart":false,"InitTime":11.718576484,"QueueingTime":10.650969068,"OffloadLatency":0,"Duration":0.012145072000000035,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765\"","ResponseTime":10.754280274,"IsWarmStart":false,"InitTime":10.742283197999999,"QueueingTime":9.651559472,"OffloadLatency":0,"Duration":0.011996490999999998,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55\"","ResponseTime":10.584449128,"IsWarmStart":false,"InitTime":10.572672476,"QueueingTime":9.483376024,"OffloadLatency":0,"Duration":0.011775733999999982,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025\"","ResponseTime":10.6355471,"IsWarmStart":true,"InitTime":10.630535254,"QueueingTime":10.630425132,"OffloadLatency":0,"Duration":0.005011173,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610\"","ResponseTime":9.274737134,"IsWarmStart":true,"InitTime":9.271017158,"QueueingTime":9.270933288,"OffloadLatency":0,"Duration":0.003719588,"Output":""}
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657,46368,75025,121393,196418,317811,514229\"","ResponseTime":9.394505193,"IsWarmStart":true,"InitTime":9.390733881,"QueueingTime":9.390682085,"OffloadLatency":0,"Duration":0.003770843,"Output":""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"Success":true,"Result":"\"0, 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946,17711,28657\"","ResponseTime":9.260827953,"IsWarmStart":false,"InitTime":9.249741762,"QueueingTime":8.164276447,"OffloadLatency":0,"Duration":0.011085497000000055,"Output":""}
+
+
+
+
+
+
+
+
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at org.apache.jmeter.threads.openmodel.OpenModelThreadGroup$ThreadsStarter.run$lambda$0(OpenModelThreadGroup.kt:147)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

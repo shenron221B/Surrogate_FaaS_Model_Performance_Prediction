@@ -1,0 +1,29 @@
+=========================================================
+ REPORT STATISTICO DATASET: x12
+=========================================================
+
+--- SISTEMA REALE (Serverledge) ---
+File sorgente: dataset.npz
+Dimensioni (Scenari x Funzioni): X (15, 1), RT (15, 1), U (15, 1)
+Anomalie: RT nulli: 0, Utility nulle: 0, Valori NaN: 0
+Carico req/s: Min=5.000 | Max=55.000 | Medio=30.600
+Resp. Time:   Min=0.0075s | Max=0.0297s | Medio=0.0093s
+Utility:      Media=0.9807
+Cold Starts:  4 su 54646 richieste (0.01%)
+Queue Time:   Min=0.000000s | Max=1.050791s | Medio=0.000213s
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_5000_0_20000.npz
+Dimensioni: X (20015, 1), RT (20015, 1), U (20015, 1)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.116 | Max=4999.885 | Medio=2498.317
+Resp. Time:   Min=0.0074s | Max=0.2304s | Medio=0.2226s
+Utility:      Media=0.0170
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 117
+  - Scenari con U > 0.50: 366
+  - Scenari con U < 0.10: 19493
+Cold Start:   Media Stimata=0.02%
+Queue Time:   Non calcolato separatamente nel sintetico.
+

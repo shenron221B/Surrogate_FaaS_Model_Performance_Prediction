@@ -1,0 +1,277 @@
+REPORT DETTAGLIATO SEPARATO PER FUNZIONE - DATASET: x15
+=====================================================================================
+
+ROW 01 | CARICO COMPLESSIVO: [2.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 2.0)
+    - Inviate (JMeter)  : 379 | Fallite: 7 (1.8%) | U: 0.9314
+    - Latenza (JMeter)  : Min=0.004s | Med=0.210s | Media=0.259s | Max=1.371s
+    - Valide (Server)   : 372 | Scartate GW: 7
+    - Cold Starts       : 16 (4.3%) | Warm: 356
+    - Tempo Coda        : Media=0.0067s | Max=1.1209s
+    - Tempo Servizio    : Media=0.2053s | Max=0.2132s
+    ..................................................
+
+ROW 02 | CARICO COMPLESSIVO: [3.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 3.0)
+    - Inviate (JMeter)  : 360 | Fallite: 1 (0.3%) | U: 0.9861
+    - Latenza (JMeter)  : Min=0.181s | Med=0.210s | Media=0.222s | Max=1.325s
+    - Valide (Server)   : 359 | Scartate GW: 1
+    - Cold Starts       : 4 (1.1%) | Warm: 355
+    - Tempo Coda        : Media=0.0005s | Max=0.1831s
+    - Tempo Servizio    : Media=0.2053s | Max=0.2134s
+    ..................................................
+
+ROW 03 | CARICO COMPLESSIVO: [4.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 4.0)
+    - Inviate (JMeter)  : 480 | Fallite: 3 (0.6%) | U: 0.9750
+    - Latenza (JMeter)  : Min=0.019s | Med=0.209s | Media=0.232s | Max=1.620s
+    - Valide (Server)   : 477 | Scartate GW: 3
+    - Cold Starts       : 4 (0.8%) | Warm: 473
+    - Tempo Coda        : Media=0.0132s | Max=1.3626s
+    - Tempo Servizio    : Media=0.2051s | Max=0.2121s
+    ..................................................
+
+ROW 04 | CARICO COMPLESSIVO: [5.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 5.0)
+    - Inviate (JMeter)  : 600 | Fallite: 6 (1.0%) | U: 0.9750
+    - Latenza (JMeter)  : Min=0.005s | Med=0.209s | Media=0.227s | Max=1.638s
+    - Valide (Server)   : 594 | Scartate GW: 6
+    - Cold Starts       : 4 (0.7%) | Warm: 590
+    - Tempo Coda        : Media=0.0118s | Max=1.3879s
+    - Tempo Servizio    : Media=0.2051s | Max=0.2130s
+    ..................................................
+
+ROW 05 | CARICO COMPLESSIVO: [6.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 6.0)
+    - Inviate (JMeter)  : 720 | Fallite: 5 (0.7%) | U: 0.9806
+    - Latenza (JMeter)  : Min=0.005s | Med=0.209s | Media=0.227s | Max=1.727s
+    - Valide (Server)   : 715 | Scartate GW: 5
+    - Cold Starts       : 4 (0.6%) | Warm: 711
+    - Tempo Coda        : Media=0.0123s | Max=1.4691s
+    - Tempo Servizio    : Media=0.2051s | Max=0.2133s
+    ..................................................
+
+ROW 06 | CARICO COMPLESSIVO: [7.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 7.0)
+    - Inviate (JMeter)  : 840 | Fallite: 10 (1.2%) | U: 0.9774
+    - Latenza (JMeter)  : Min=0.003s | Med=0.209s | Media=0.223s | Max=1.764s
+    - Valide (Server)   : 830 | Scartate GW: 10
+    - Cold Starts       : 4 (0.5%) | Warm: 826
+    - Tempo Coda        : Media=0.0104s | Max=1.5014s
+    - Tempo Servizio    : Media=0.2050s | Max=0.2137s
+    ..................................................
+
+ROW 07 | CARICO COMPLESSIVO: [8.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 8.0)
+    - Inviate (JMeter)  : 960 | Fallite: 10 (1.0%) | U: 0.9802
+    - Latenza (JMeter)  : Min=0.004s | Med=0.209s | Media=0.224s | Max=1.648s
+    - Valide (Server)   : 950 | Scartate GW: 10
+    - Cold Starts       : 4 (0.4%) | Warm: 946
+    - Tempo Coda        : Media=0.0124s | Max=1.4388s
+    - Tempo Servizio    : Media=0.2048s | Max=0.2119s
+    ..................................................
+
+ROW 08 | CARICO COMPLESSIVO: [10.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 10.0)
+    - Inviate (JMeter)  : 1200 | Fallite: 31 (2.6%) | U: 0.9667
+    - Latenza (JMeter)  : Min=0.003s | Med=0.208s | Media=0.222s | Max=1.751s
+    - Valide (Server)   : 1169 | Scartate GW: 31
+    - Cold Starts       : 4 (0.3%) | Warm: 1165
+    - Tempo Coda        : Media=0.0143s | Max=1.4915s
+    - Tempo Servizio    : Media=0.2047s | Max=0.2139s
+    ..................................................
+
+ROW 09 | CARICO COMPLESSIVO: [12.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 12.0)
+    - Inviate (JMeter)  : 1440 | Fallite: 36 (2.5%) | U: 0.9688
+    - Latenza (JMeter)  : Min=0.003s | Med=0.208s | Media=0.235s | Max=1.727s
+    - Valide (Server)   : 1404 | Scartate GW: 36
+    - Cold Starts       : 4 (0.3%) | Warm: 1400
+    - Tempo Coda        : Media=0.0292s | Max=1.4719s
+    - Tempo Servizio    : Media=0.2046s | Max=0.2123s
+    ..................................................
+
+ROW 10 | CARICO COMPLESSIVO: [15.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 15.0)
+    - Inviate (JMeter)  : 1800 | Fallite: 64 (3.6%) | U: 0.9578
+    - Latenza (JMeter)  : Min=0.003s | Med=0.209s | Media=0.249s | Max=1.729s
+    - Valide (Server)   : 1736 | Scartate GW: 64
+    - Cold Starts       : 4 (0.2%) | Warm: 1732
+    - Tempo Coda        : Media=0.0459s | Max=1.4525s
+    - Tempo Servizio    : Media=0.2047s | Max=0.2104s
+    ..................................................
+
+ROW 11 | CARICO COMPLESSIVO: [18.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 18.0)
+    - Inviate (JMeter)  : 2160 | Fallite: 168 (7.8%) | U: 0.9171
+    - Latenza (JMeter)  : Min=0.002s | Med=0.271s | Media=0.279s | Max=1.770s
+    - Valide (Server)   : 1992 | Scartate GW: 168
+    - Cold Starts       : 4 (0.2%) | Warm: 1988
+    - Tempo Coda        : Media=0.0901s | Max=1.5038s
+    - Tempo Servizio    : Media=0.2048s | Max=0.2117s
+    ..................................................
+
+ROW 12 | CARICO COMPLESSIVO: [20.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 20.0)
+    - Inviate (JMeter)  : 2400 | Fallite: 271 (11.3%) | U: 0.8792
+    - Latenza (JMeter)  : Min=0.002s | Med=0.303s | Media=0.289s | Max=1.734s
+    - Valide (Server)   : 2129 | Scartate GW: 271
+    - Cold Starts       : 4 (0.2%) | Warm: 2125
+    - Tempo Coda        : Media=0.1126s | Max=1.4665s
+    - Tempo Servizio    : Media=0.2049s | Max=0.2147s
+    ..................................................
+
+ROW 13 | CARICO COMPLESSIVO: [25.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 25.0)
+    - Inviate (JMeter)  : 3000 | Fallite: 736 (24.5%) | U: 0.7417
+    - Latenza (JMeter)  : Min=0.002s | Med=0.353s | Media=0.288s | Max=1.744s
+    - Valide (Server)   : 2264 | Scartate GW: 736
+    - Cold Starts       : 4 (0.2%) | Warm: 2260
+    - Tempo Coda        : Media=0.1685s | Max=1.4958s
+    - Tempo Servizio    : Media=0.2048s | Max=0.2153s
+    ..................................................
+
+ROW 14 | CARICO COMPLESSIVO: [28.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 28.0)
+    - Inviate (JMeter)  : 3360 | Fallite: 1080 (32.1%) | U: 0.6658
+    - Latenza (JMeter)  : Min=0.002s | Med=0.363s | Media=0.273s | Max=1.743s
+    - Valide (Server)   : 2280 | Scartate GW: 1080
+    - Cold Starts       : 4 (0.2%) | Warm: 2276
+    - Tempo Coda        : Media=0.1887s | Max=1.4795s
+    - Tempo Servizio    : Media=0.2050s | Max=0.2136s
+    ..................................................
+
+ROW 15 | CARICO COMPLESSIVO: [35.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 35.0)
+    - Inviate (JMeter)  : 4200 | Fallite: 1917 (45.6%) | U: 0.4902
+    - Latenza (JMeter)  : Min=0.002s | Med=0.327s | Media=0.228s | Max=1.755s
+    - Valide (Server)   : 2283 | Scartate GW: 1917
+    - Cold Starts       : 4 (0.2%) | Warm: 2279
+    - Tempo Coda        : Media=0.2036s | Max=1.4891s
+    - Tempo Servizio    : Media=0.2050s | Max=0.2135s
+    ..................................................
+
+ROW 16 | CARICO COMPLESSIVO: [38.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 38.0)
+    - Inviate (JMeter)  : 4560 | Fallite: 2273 (49.8%) | U: 0.4355
+    - Latenza (JMeter)  : Min=0.002s | Med=0.230s | Media=0.213s | Max=1.751s
+    - Valide (Server)   : 2287 | Scartate GW: 2273
+    - Cold Starts       : 4 (0.2%) | Warm: 2283
+    - Tempo Coda        : Media=0.2085s | Max=1.4980s
+    - Tempo Servizio    : Media=0.2047s | Max=0.2116s
+    ..................................................
+
+ROW 17 | CARICO COMPLESSIVO: [40.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 40.0)
+    - Inviate (JMeter)  : 4800 | Fallite: 2512 (52.3%) | U: 0.4056
+    - Latenza (JMeter)  : Min=0.002s | Med=0.004s | Media=0.202s | Max=1.723s
+    - Valide (Server)   : 2288 | Scartate GW: 2512
+    - Cold Starts       : 4 (0.2%) | Warm: 2284
+    - Tempo Coda        : Media=0.2076s | Max=1.4821s
+    - Tempo Servizio    : Media=0.2049s | Max=0.2138s
+    ..................................................
+
+ROW 18 | CARICO COMPLESSIVO: [45.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 45.0)
+    - Inviate (JMeter)  : 5400 | Fallite: 3118 (57.7%) | U: 0.3783
+    - Latenza (JMeter)  : Min=0.001s | Med=0.004s | Media=0.185s | Max=1.719s
+    - Valide (Server)   : 2282 | Scartate GW: 3118
+    - Cold Starts       : 4 (0.2%) | Warm: 2278
+    - Tempo Coda        : Media=0.2200s | Max=1.4825s
+    - Tempo Servizio    : Media=0.2050s | Max=0.2135s
+    ..................................................
+
+ROW 19 | CARICO COMPLESSIVO: [60.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 60.0)
+    - Inviate (JMeter)  : 7200 | Fallite: 4908 (68.2%) | U: 0.2532
+    - Latenza (JMeter)  : Min=0.001s | Med=0.003s | Media=0.142s | Max=1.666s
+    - Valide (Server)   : 2292 | Scartate GW: 4908
+    - Cold Starts       : 4 (0.2%) | Warm: 2288
+    - Tempo Coda        : Media=0.2285s | Max=1.4095s
+    - Tempo Servizio    : Media=0.2046s | Max=0.2116s
+    ..................................................
+
+ROW 20 | CARICO COMPLESSIVO: [80.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 80.0)
+    - Inviate (JMeter)  : 9600 | Fallite: 7310 (76.1%) | U: 0.1963
+    - Latenza (JMeter)  : Min=0.001s | Med=0.003s | Media=0.110s | Max=1.694s
+    - Valide (Server)   : 2290 | Scartate GW: 7310
+    - Cold Starts       : 4 (0.2%) | Warm: 2286
+    - Tempo Coda        : Media=0.2395s | Max=1.4430s
+    - Tempo Servizio    : Media=0.2047s | Max=0.2115s
+    ..................................................
+
+ROW 21 | CARICO COMPLESSIVO: [100.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 100.0)
+    - Inviate (JMeter)  : 12000 | Fallite: 9719 (81.0%) | U: 0.1636
+    - Latenza (JMeter)  : Min=0.001s | Med=0.003s | Media=0.091s | Max=1.760s
+    - Valide (Server)   : 2281 | Scartate GW: 9719
+    - Cold Starts       : 4 (0.2%) | Warm: 2277
+    - Tempo Coda        : Media=0.2455s | Max=1.5072s
+    - Tempo Servizio    : Media=0.2047s | Max=0.2122s
+    ..................................................
+
+ROW 22 | CARICO COMPLESSIVO: [5.5]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 5.5)
+    - Inviate (JMeter)  : 660 | Fallite: 17 (2.6%) | U: 0.9606
+    - Latenza (JMeter)  : Min=0.004s | Med=0.209s | Media=0.224s | Max=1.746s
+    - Valide (Server)   : 643 | Scartate GW: 17
+    - Cold Starts       : 4 (0.6%) | Warm: 639
+    - Tempo Coda        : Media=0.0125s | Max=1.5026s
+    - Tempo Servizio    : Media=0.2049s | Max=0.2105s
+    ..................................................
+
+ROW 23 | CARICO COMPLESSIVO: [8.5]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 8.5)
+    - Inviate (JMeter)  : 1020 | Fallite: 22 (2.2%) | U: 0.9696
+    - Latenza (JMeter)  : Min=0.004s | Med=0.208s | Media=0.222s | Max=1.697s
+    - Valide (Server)   : 998 | Scartate GW: 22
+    - Cold Starts       : 4 (0.4%) | Warm: 994
+    - Tempo Coda        : Media=0.0135s | Max=1.4527s
+    - Tempo Servizio    : Media=0.2047s | Max=0.2129s
+    ..................................................
+
+ROW 24 | CARICO COMPLESSIVO: [11.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 11.0)
+    - Inviate (JMeter)  : 1320 | Fallite: 43 (3.3%) | U: 0.9598
+    - Latenza (JMeter)  : Min=0.003s | Med=0.209s | Media=0.226s | Max=1.715s
+    - Valide (Server)   : 1277 | Scartate GW: 43
+    - Cold Starts       : 4 (0.3%) | Warm: 1273
+    - Tempo Coda        : Media=0.0202s | Max=1.4824s
+    - Tempo Servizio    : Media=0.2048s | Max=0.2132s
+    ..................................................
+
+ROW 25 | CARICO COMPLESSIVO: [14.0]
+------------------------------------------------------------
+  [FUNZIONE 1] (Carico Applicato: 14.0)
+    - Inviate (JMeter)  : 1680 | Fallite: 34 (2.0%) | U: 0.9744
+    - Latenza (JMeter)  : Min=0.003s | Med=0.209s | Media=0.246s | Max=1.707s
+    - Valide (Server)   : 1646 | Scartate GW: 34
+    - Cold Starts       : 4 (0.2%) | Warm: 1642
+    - Tempo Coda        : Media=0.0386s | Max=1.4975s
+    - Tempo Servizio    : Media=0.2049s | Max=0.2141s
+    ..................................................

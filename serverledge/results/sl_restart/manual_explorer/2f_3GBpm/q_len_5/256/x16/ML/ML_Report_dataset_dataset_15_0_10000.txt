@@ -1,0 +1,9 @@
+REPORT ERRORI FINALI: dataset vs dataset_15_0_10000
+
+Simulatore Puro -> RT MAPE: 31.08%, U RMSE: 0.3529
+ML Sintetico (Zero-Shot) -> RT MAPE: 31.42%, U RMSE: 0.3516
+FT_1pt -> RT MAPE: 219.11%, U RMSE: 0.3836
+FT_3pt -> RT MAPE: 456.59%, U RMSE: 0.4605
+FT_5pt -> RT MAPE: 468.45%, U RMSE: 0.4415
+FT_7pt -> RT MAPE: 358.15%, U RMSE: 0.3930
+FT_9pt -> RT MAPE: 357.17%, U RMSE: 0.3755

@@ -1,0 +1,31 @@
+data: data/serverledge
+seeds:
+- 1
+qlen: 30
+functions: 3
+system_memory: 3072
+poisson_arrivals: true
+deadline_coeff: 2.5
+queue_policy: fifo
+net_overhead: 0.0036736969999999355
+serv_time_duration:
+- 0.006465522799674939
+- 0.005725411378089789
+- 0.005624322668875476
+serv_time_cvs:
+- 0.4968545941238969
+- 0.3645818548889871
+- 0.27775075035167984
+init_times:
+- 1.0053641566370832
+- 1.0865684971566665
+- 1.2264693950371213
+mem_demands:
+- 128
+- 128
+- 128
+arv_rates:
+- 1
+- 1
+- 1
+parallelism: 1

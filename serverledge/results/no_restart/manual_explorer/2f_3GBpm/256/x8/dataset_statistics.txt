@@ -1,0 +1,119 @@
+=========================================================
+ REPORT STATISTICO DATASET: x8
+=========================================================
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_110_0_5000.npz
+Dimensioni: X (5000, 2), RT (5000, 2), U (5000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.085 | Max=109.997 | Medio=54.709
+Resp. Time:   Min=0.0091s | Max=0.1652s | Medio=0.0146s
+Utility:      Media=0.8885
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 4386
+  - Scenari con U > 0.50: 4855
+  - Scenari con U < 0.10: 0
+Cold Start:   Media Stimata=0.24%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_200_0_10000.npz
+Dimensioni: X (10000, 2), RT (10000, 2), U (10000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.053 | Max=199.995 | Medio=100.031
+Resp. Time:   Min=0.0091s | Max=0.2062s | Medio=0.0770s
+Utility:      Media=0.5963
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 4562
+  - Scenari con U > 0.50: 5828
+  - Scenari con U < 0.10: 0
+Cold Start:   Media Stimata=1.85%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
+
+--- SISTEMA REALE (Serverledge) ---
+File sorgente: dataset.npz
+Dimensioni (Scenari x Funzioni): X (10, 2), RT (10, 2), U (10, 2)
+Anomalie: RT nulli: 0, Utility nulle: 2, Valori NaN: 0
+Carico req/s: Min=0.400 | Max=5.000 | Medio=2.600
+Resp. Time:   Min=0.0080s | Max=2.9015s | Medio=0.2889s
+Utility:      Media=0.8700
+Cold Starts:  288 su 5502 richieste (5.23%)
+Queue Time:   Min=0.000000s | Max=5.609005s | Medio=0.207035s
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_150_0_5000.npz
+Dimensioni: X (5000, 2), RT (5000, 2), U (5000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.097 | Max=149.997 | Medio=74.593
+Resp. Time:   Min=0.0091s | Max=0.1999s | Medio=0.0432s
+Utility:      Media=0.7489
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 3349
+  - Scenari con U > 0.50: 3929
+  - Scenari con U < 0.10: 0
+Cold Start:   Media Stimata=1.02%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_90_0_5000.npz
+Dimensioni: X (5000, 2), RT (5000, 2), U (5000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.078 | Max=89.998 | Medio=44.766
+Resp. Time:   Min=0.0091s | Max=0.0601s | Medio=0.0101s
+Utility:      Media=0.9172
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 4896
+  - Scenari con U > 0.50: 5000
+  - Scenari con U < 0.10: 0
+Cold Start:   Media Stimata=0.05%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_300_0_10000.npz
+Dimensioni: X (10000, 2), RT (10000, 2), U (10000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.054 | Max=299.993 | Medio=150.034
+Resp. Time:   Min=0.0091s | Max=0.2067s | Medio=0.1139s
+Utility:      Media=0.4199
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 2474
+  - Scenari con U > 0.50: 3519
+  - Scenari con U < 0.10: 166
+Cold Start:   Media Stimata=2.77%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_70_0_5000.npz
+Dimensioni: X (5000, 2), RT (5000, 2), U (5000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.072 | Max=69.998 | Medio=34.824
+Resp. Time:   Min=0.0091s | Max=0.0246s | Medio=0.0098s
+Utility:      Media=0.9189
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 4999
+  - Scenari con U > 0.50: 5000
+  - Scenari con U < 0.10: 0
+Cold Start:   Media Stimata=0.03%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
+
+--- SIMULATORE SINTETICO (Go) ---
+File sorgente: dataset_800_0_10000.npz
+Dimensioni: X (10000, 2), RT (10000, 2), U (10000, 2)
+Anomalie: RT nulli: 0, Valori NaN: 0
+Carico req/s: Min=0.061 | Max=799.982 | Medio=400.048
+Resp. Time:   Min=0.0092s | Max=0.2047s | Medio=0.1381s
+Utility:      Media=0.1947
+Distribuzione Utility per Scenario:
+  - Scenari con U > 0.90: 393
+  - Scenari con U > 0.50: 957
+  - Scenari con U < 0.10: 4430
+Cold Start:   Media Stimata=3.20%
+Queue Time:   Non calcolato separatamente nel sintetico.
+
