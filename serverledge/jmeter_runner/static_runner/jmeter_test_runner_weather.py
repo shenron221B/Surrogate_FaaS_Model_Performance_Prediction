@@ -5,13 +5,13 @@ import sys
 from pathlib import Path
 import time
 
-# directory di base
 BASE_DIR = Path("/root/tesi_project/serverledge")
-
-# aggiunta 'utility' al sys.path per importare load_matrix
 sys.path.append(str(BASE_DIR / "utility"))
+
 from load_matrix import MATRICES, generate_random_matrix
 
+BASE_RESULTS_DIR = BASE_DIR / "results" / "sl_restart" / "manual_explorer" / "real_functions" / "1f_weather_4GBpm" / "q_len_5" / "256"
+JMX_PATH = str(BASE_DIR / "jmeter_test" / "real_functions" / "weather_jmeter_test.jmx")
 SEED = 42
 
 # configurazione accesso remoto
@@ -19,13 +19,13 @@ VM1_IP = "192.168.122.6"
 VM1_PORT = "22"
 VM1_PASSWORD = "Farag01."
 
-# comando di avvio di Serverledge (versione systemd per VM3)
+# comando di avvio di Serverledge
+SERVERLEDGE_PATH = "/root/serverledge"
 START_CMD = "systemctl start serverledge"
 STOP_CMD = "systemctl stop serverledge"
 
 # prefisso universale per lanciare comandi via SSH
 SSH_CMD = f"sshpass -p '{VM1_PASSWORD}' ssh -p {VM1_PORT} -o StrictHostKeyChecking=no root@{VM1_IP}"
-
 
 def restart_serverledge():
     print(f"\n[CLEAN STATE] Inizio procedura di pulizia remota su {VM1_IP}...")
@@ -37,8 +37,7 @@ def restart_serverledge():
 
     # riavvio di etcd remoto
     print(f"[CLEAN STATE] Riavvio di etcd-server...")
-    subprocess.run(f"{SSH_CMD} 'docker stop etcd-server && docker start etcd-server'", shell=True,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(f"{SSH_CMD} 'docker stop etcd-server && docker start etcd-server'", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     time.sleep(2)
 
     # riavvio di Serverledge tramite systemd
@@ -51,41 +50,26 @@ def restart_serverledge():
 
 
 def print_usage():
-    print("\n[ERRORE] Uso corretto dello script:")
-    print("  python3 jmeter_test_runner_unified.py manual <nome_matrice> <path_file_jmx> <directory_output_base>")
-    print("\nEsempio pratico:")
-    print(
-        "  python3 jmeter_test_runner_unified.py manual weather_short /root/tesi_project/serverledge/jmeter_test/real_functions/weather_jmeter_test.jmx /root/tesi_project/serverledge/results/sl_restart/manual_explorer/real_functions/1f_weather_4GBpm/q_len_5/256\n")
+    print("uso corretto dello script:")
+    print("  Manuale: python3 jmeter_test_runner_weather.py manual <nome_matrice>")
     sys.exit(1)
 
 
 def main():
-    if len(sys.argv) < 5:
+    if len(sys.argv) < 3:
         print_usage()
 
     mode = sys.argv[1].lower()
 
     if mode == "manual":
         matrix_name = sys.argv[2]
-        jmx_path_arg = sys.argv[3]
-        base_results_arg = sys.argv[4]
-
         if matrix_name not in MATRICES:
-            print(f"Errore: Matrice '{matrix_name}' non trovata in load_matrix.py.")
+            print(f"Errore: Matrice '{matrix_name}' non trovata.")
             sys.exit(1)
         X = MATRICES[matrix_name]
         folder_name = matrix_name
     else:
         print_usage()
-
-    # validazione del file JMX
-    JMX_PATH = os.path.abspath(jmx_path_arg)
-    if not os.path.exists(JMX_PATH):
-        print(f"Errore: File JMX '{JMX_PATH}' non trovato.")
-        sys.exit(1)
-
-    # setup directory di output base
-    BASE_RESULTS_DIR = Path(os.path.abspath(base_results_arg))
 
     if X.shape[1] > 1:
         X = X[:, :1]
@@ -95,7 +79,6 @@ def main():
 
     print(f"\n=======================================================")
     print(f" AVVIO TEST 1 FUNZIONE: {matrix_name.upper()} (Coda Corta & Clean State)")
-    print(f" Target JMX: {JMX_PATH}")
     print(f" Cartella output: {results_dir}")
     print(f" Dimensioni Matrice: {X.shape}")
     print(f"=======================================================\n")
