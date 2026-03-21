@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test 1 Funzione - Weather">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test 1 Funzione - Weather Dinamico">
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
         <collectionProp name="Arguments.arguments">
           <elementProp name="host" elementType="Argument">
@@ -16,7 +16,7 @@
           </elementProp>
           <elementProp name="func1" elementType="Argument">
             <stringProp name="Argument.name">func1</stringProp>
-            <stringProp name="Argument.value">/invoke/weather_api</stringProp>
+            <stringProp name="Argument.value">/invoke/weather</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -36,6 +36,15 @@
         <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
       </OpenModelThreadGroup>
       <hashTree>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Random GPS Gen">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="script">
+            def rng = new Random()
+            vars.put("rand_lat", (rng.nextDouble() * 180 - 90).round(4).toString())
+            vars.put("rand_lon", (rng.nextDouble() * 360 - 180).round(4).toString())
+          </stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Invoke_weather">
           <stringProp name="HTTPSampler.path">${func1}</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -43,7 +52,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
-                <stringProp name="Argument.value">{ "Params": { "gemini_api_key": "XXXXX", "latitude": 52.52, "longitude": 13.41 } }</stringProp>
+                <stringProp name="Argument.value">{ "Params": { "latitude": ${rand_lat}, "longitude": ${rand_lon} } }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>

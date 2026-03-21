@@ -2,9 +2,8 @@ import random
 import time
 
 
-def invoke(args):
-    # prende il numero di iterazioni dal JSON (default 10000)
-    iterations = args.get("iterations", 10000)
+def invoke(args, context):
+    iterations = int(args.get("iterations", 1000000))
     inside = 0
     start = time.time()
 
@@ -17,3 +16,5 @@ def invoke(args):
     duration = time.time() - start
 
     return {"pi": pi, "duration_sec": duration, "iterations": iterations}
+
+
