@@ -15,7 +15,6 @@ def main():
         print(f"File JSON non trovato: {json_path}")
         sys.exit(1)
 
-    # creazione cartella boxplot
     ml_dir = os.path.dirname(json_path)
     base_dir = os.path.dirname(ml_dir)
     boxplot_dir = os.path.join(base_dir, "boxplot")
@@ -24,38 +23,33 @@ def main():
     with open(json_path, "r") as f:
         data = json.load(f)
 
-    # stile grafico
     sns.set_theme(style="whitegrid")
 
-    # 1. PLOT MAPE (Response Time)
-    plt.figure(figsize=(10, 6))
-    labels_rt = list(data["RT_MAPE"].keys())
-    values_rt = list(data["RT_MAPE"].values())
+    # cicla dinamicamente su tutti i target salvati nel JSON
+    for target_name, target_info in data.items():
+        err_type = target_info["type"]  # "MAPE" o "RMSE"
+        models_dict = target_info["models"]
 
-    sns.boxplot(data=values_rt, palette="Set3", showfliers=False)
-    plt.xticks(range(len(labels_rt)), labels_rt, rotation=45)
-    plt.title("Confronto Errori (MAPE) - Tempo di Risposta (RT)", fontsize=14, pad=15)
-    plt.ylabel("MAPE (%)")
-    plt.xlabel("Modelli")
-    plt.tight_layout()
-    plt.savefig(os.path.join(boxplot_dir, "boxplot_RT_MAPE.png"), dpi=300)
-    plt.close()
+        labels = list(models_dict.keys())
+        values = list(models_dict.values())
 
-    # 2. PLOT RMSE (Utility)
-    plt.figure(figsize=(10, 6))
-    labels_u = list(data["U_RMSE"].keys())
-    values_u = list(data["U_RMSE"].values())
+        plt.figure(figsize=(10, 6))
 
-    sns.boxplot(data=values_u, palette="Set2", showfliers=False)
-    plt.xticks(range(len(labels_u)), labels_u, rotation=45)
-    plt.title("Confronto Errori (RMSE) - Utilità", fontsize=14, pad=15)
-    plt.ylabel("RMSE")
-    plt.xlabel("Modelli")
-    plt.tight_layout()
-    plt.savefig(os.path.join(boxplot_dir, "boxplot_Utility_RMSE.png"), dpi=300)
-    plt.close()
+        palette = "Set3" if err_type == "MAPE" else "Set2"
 
-    print(f"[SUCCESSO] Boxplot generati nella cartella: {boxplot_dir}")
+        sns.boxplot(data=values, palette=palette, showfliers=False)
+        plt.xticks(range(len(labels)), labels, rotation=45)
+
+        plt.title(f"Confronto Errori ({err_type}) - Target: {target_name}", fontsize=14, pad=15)
+        plt.ylabel(f"{err_type} {'(%)' if err_type == 'MAPE' else ''}")
+        plt.xlabel("Modelli")
+        plt.tight_layout()
+
+        save_path = os.path.join(boxplot_dir, f"boxplot_{target_name}_{err_type}.png")
+        plt.savefig(save_path, dpi=300)
+        plt.close()
+
+    print(f"[SUCCESSO] {len(data.keys())} Boxplot generati nella cartella: {boxplot_dir}")
 
 
 if __name__ == "__main__":

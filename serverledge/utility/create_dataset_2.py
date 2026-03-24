@@ -29,7 +29,7 @@ def compute_utility_mean(df, func_id, mean_dur):
 
     if total_invocation > 0:
         sl_dur_mean = mean_dur if mean_dur > 0 else 0.200
-        utility_threshold = max(sl_dur_mean * 2.5, 0.500)
+        utility_threshold = sl_dur_mean * 2.5
         valid = df_func[(df_func['success'] == True) & ((df_func['elapsed'] / 1000.0) < utility_threshold)]
         return len(valid) / total_invocation
     return 0.0

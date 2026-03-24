@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test 4 Funzioni (Hash, Matrix, Pi, Weather)">
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="host" elementType="Argument"><stringProp name="Argument.name">host</stringProp><stringProp name="Argument.value">192.168.122.6</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+          <elementProp name="port" elementType="Argument"><stringProp name="Argument.name">port</stringProp><stringProp name="Argument.value">1323</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+          <elementProp name="func1" elementType="Argument"><stringProp name="Argument.name">func1</stringProp><stringProp name="Argument.value">/invoke/hash_worker</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+          <elementProp name="func2" elementType="Argument"><stringProp name="Argument.name">func2</stringProp><stringProp name="Argument.value">/invoke/matrix_mem</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+          <elementProp name="func3" elementType="Argument"><stringProp name="Argument.name">func3</stringProp><stringProp name="Argument.value">/invoke/pi_calc</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+          <elementProp name="func4" elementType="Argument"><stringProp name="Argument.name">func4</stringProp><stringProp name="Argument.value">/invoke/weather</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults">
+        <stringProp name="HTTPSampler.domain">${host}</stringProp>
+        <stringProp name="HTTPSampler.port">${port}</stringProp>
+        <stringProp name="HTTPSampler.protocol">http</stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+
+      <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Group 1 (Hash)">
+        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f1,0.1)}/sec) random_arrivals(600 sec)</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
+      </OpenModelThreadGroup>
+      <hashTree>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Random Hash">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="script">
+            vars.put("rand_pass", UUID.randomUUID().toString())
+            vars.put("rand_iter", (new Random().nextInt(200000) + 100000).toString())
+          </stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Invoke_func_1">
+          <stringProp name="HTTPSampler.path">${func1}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument"><stringProp name="Argument.value">{ "Params": { "password": "${rand_pass}", "iterations": ${rand_iter} } }</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header"><collectionProp name="HeaderManager.headers"><elementProp name="" elementType="Header"><stringProp name="Header.name">Content-Type</stringProp><stringProp name="Header.value">application/json</stringProp></elementProp></collectionProp></HeaderManager>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Save Resp 1">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="script">new File(props.get("result_dir"), "http_responses_func1.txt") &lt;&lt; prev.getResponseDataAsString() + "\n"</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+
+      <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Group 2 (Matrix)">
+        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f2,0.1)}/sec) random_arrivals(600 sec)</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
+      </OpenModelThreadGroup>
+      <hashTree>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Random Matrix">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="script">vars.put("rand_size", (new Random().nextInt(500) + 500).toString())</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Invoke_func_2">
+          <stringProp name="HTTPSampler.path">${func2}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument"><stringProp name="Argument.value">{ "Params": { "size": ${rand_size} } }</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header"><collectionProp name="HeaderManager.headers"><elementProp name="" elementType="Header"><stringProp name="Header.name">Content-Type</stringProp><stringProp name="Header.value">application/json</stringProp></elementProp></collectionProp></HeaderManager>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Save Resp 2">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="script">new File(props.get("result_dir"), "http_responses_func2.txt") &lt;&lt; prev.getResponseDataAsString() + "\n"</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+
+      <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Group 3 (Pi Calc)">
+        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f3,0.1)}/sec) random_arrivals(600 sec)</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
+      </OpenModelThreadGroup>
+      <hashTree>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Random Pi">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="script">vars.put("rand_iter_pi", (new Random().nextInt(1000000) + 500000).toString())</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Invoke_func_3">
+          <stringProp name="HTTPSampler.path">${func3}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument"><stringProp name="Argument.value">{ "Params": { "iterations": ${rand_iter_pi} } }</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header"><collectionProp name="HeaderManager.headers"><elementProp name="" elementType="Header"><stringProp name="Header.name">Content-Type</stringProp><stringProp name="Header.value">application/json</stringProp></elementProp></collectionProp></HeaderManager>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Save Resp 3">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="script">new File(props.get("result_dir"), "http_responses_func3.txt") &lt;&lt; prev.getResponseDataAsString() + "\n"</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+
+      <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Group 4 (Weather)">
+        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f4,0.1)}/sec) random_arrivals(600 sec)</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
+      </OpenModelThreadGroup>
+      <hashTree>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Random Weather">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="script">
+            String[] cities = ["Rome", "Milan", "Naples", "Turin", "Palermo", "Genoa"];
+            vars.put("rand_city", cities[new Random().nextInt(cities.length)]);
+          </stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Invoke_func_4">
+          <stringProp name="HTTPSampler.path">${func4}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument"><stringProp name="Argument.value">{ "Params": { "city": "${rand_city}" } }</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header"><collectionProp name="HeaderManager.headers"><elementProp name="" elementType="Header"><stringProp name="Header.name">Content-Type</stringProp><stringProp name="Header.value">application/json</stringProp></elementProp></collectionProp></HeaderManager>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Save Resp 4">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="script">new File(props.get("result_dir"), "http_responses_func4.txt") &lt;&lt; prev.getResponseDataAsString() + "\n"</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
