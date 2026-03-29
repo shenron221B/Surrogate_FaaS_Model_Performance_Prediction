@@ -14,7 +14,6 @@ def main():
         print(f"[ERRORE] File non trovato: {npz_path}")
         sys.exit(1)
 
-    # creazione del nome del file di output
     csv_path = npz_path.replace('.npz', '.csv')
 
     print(f"Caricamento del dataset: {npz_path}...")
@@ -33,29 +32,32 @@ def main():
 
     num_rows, num_funcs = data['X'].shape
 
-    # dizionario
     df_data = {}
     df_data['Row'] = np.arange(1, num_rows + 1)
 
-    # ordine logico delle colonne
-    preferred_order = ['X', 'U', 'RT', 'Success', 'Warm', 'Cold']
-
-    # riordino delle chiavi
+    preferred_order = ['X', 'U', 'RT_median', 'RT_mean', 'RT', 'Success', 'Warm', 'Cold']
     ordered_keys = [k for k in preferred_order if k in keys] + [k for k in keys if k not in preferred_order]
 
-    # srotolamento matrici in colonne
     for key in ordered_keys:
         matrix = data[key]
-        for f in range(num_funcs):
+
+        if len(matrix.shape) == 1:
+            matrix = matrix.reshape(-1, 1)
+
+        cols_to_extract = matrix.shape[1]
+
+        for f in range(cols_to_extract):
             col_name = f"{key}_F{f + 1}"
-            df_data[col_name] = matrix[:, f]
 
-    # crea il DataFrame Pandas
+            if matrix.shape[0] == num_rows:
+                df_data[col_name] = matrix[:, f]
+            else:
+                padded = np.full(num_rows, np.nan)
+                padded[:matrix.shape[0]] = matrix[:, f]
+                df_data[col_name] = padded
+
     df = pd.DataFrame(df_data)
-
     df = df.round(4)
-
-    # salva in CSV
     df.to_csv(csv_path, index=False)
     print(f"[OK] Convertito con successo! File salvato in:\n -> {csv_path}")
 
