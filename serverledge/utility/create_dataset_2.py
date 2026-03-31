@@ -41,6 +41,12 @@ def compute_response_time_median(df, func_id):
     return np.median(df_func["elapsed"] / 1000.0) if not df_func.empty else 0.0
 
 
+def compute_response_time_mean(df, func_id):
+    df_func = df[df["label"] == f"Invoke_func_{func_id}"]
+    df_func = df_func[df_func["success"] == True]
+    return np.mean(df_func["elapsed"] / 1000.0) if not df_func.empty else 0.0
+
+
 def read_http_file_extended(filename):
     durations, inits, queue_times = [], [], []
     cold_count, warm_count = 0, 0
@@ -73,7 +79,7 @@ def read_http_file_extended(filename):
                 continue
 
     mean_dur = np.mean(durations) if durations else 0
-    mean_init = np.nanmean(inits) if inits else 0
+    mean_init = np.nanmean(inits) if inits else np.nan
     mean_queue = np.mean(queue_times) if queue_times else 0
     return durations, mean_dur, mean_init, mean_queue, cold_count, warm_count
 
@@ -207,7 +213,7 @@ def main():
             cold_rate = cold_count / total_valid if total_valid > 0 else 0.0
 
             if not df.empty:
-                rt_client = compute_response_time_median(df, f)
+                rt_client = compute_response_time_mean(df, f)
                 utility = compute_utility_mean(df, f, mean_dur)
 
                 diffs_ov = calculate_net_overhead_median(file_txt, df, f)
@@ -226,7 +232,7 @@ def main():
             Cold_row.append(cold_rate)
             Success_row.append(success_rate)
             Queue_row.append(mean_queue)
-            Init_row.append(mean_init)
+            Init_row.append(0.0 if np.isnan(mean_init) else mean_init)
             NetOv_row.append(net_overhead)
             PoolMem_row.append(SYSTEM_MEMORY)
             FuncMem_row.append(MEM_DEMAND)
