@@ -11,7 +11,7 @@ def main():
         sys.exit(1)
 
     base_dir = os.path.abspath(sys.argv[1])
-    out_dir = os.path.join(base_dir, "warm_cold_timeline_analysis")
+    out_dir = os.path.join(base_dir, "warm_cold_timeline_analysis_new_VM")
     os.makedirs(out_dir, exist_ok=True)
 
     row_dirs = sorted([d for d in os.listdir(base_dir) if d.startswith("row_")],

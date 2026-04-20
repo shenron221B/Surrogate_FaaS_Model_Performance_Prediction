@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test 2 Funzioni (Matrix, Hash)">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test 2 Funzioni (Matrix, Hash) - LINEARE">
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="host" elementType="Argument"><stringProp name="Argument.name">host</stringProp><stringProp name="Argument.value">192.168.122.4</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
+          <elementProp name="host" elementType="Argument"><stringProp name="Argument.name">host</stringProp><stringProp name="Argument.value">192.168.122.6</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
           <elementProp name="port" elementType="Argument"><stringProp name="Argument.name">port</stringProp><stringProp name="Argument.value">1323</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
           <elementProp name="func1" elementType="Argument"><stringProp name="Argument.name">func1</stringProp><stringProp name="Argument.value">/invoke/matrix_mem</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
           <elementProp name="func2" elementType="Argument"><stringProp name="Argument.name">func2</stringProp><stringProp name="Argument.value">/invoke/hash_worker</stringProp><stringProp name="Argument.metadata">=</stringProp></elementProp>
@@ -20,7 +20,7 @@
       <hashTree/>
 
       <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Group 1 (Matrix)">
-        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f1,0.1)}/sec) random_arrivals(600 sec)</stringProp>
+        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f1,0.1)}/sec) even_arrivals(600 sec)</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
       </OpenModelThreadGroup>
@@ -52,7 +52,7 @@
       </hashTree>
 
       <OpenModelThreadGroup guiclass="OpenModelThreadGroupGui" testclass="OpenModelThreadGroup" testname="Group 2 (Hash)">
-        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f2,0.1)}/sec) random_arrivals(600 sec)</stringProp>
+        <stringProp name="OpenModelThreadGroup.schedule">rate(${__P(rate_f2,0.1)}/sec) even_arrivals(600 sec)</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="OpenModelThreadGroupController"/>
       </OpenModelThreadGroup>

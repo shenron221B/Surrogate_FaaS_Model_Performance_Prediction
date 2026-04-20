@@ -5,10 +5,7 @@ import sys
 from pathlib import Path
 import time
 
-# directory di base
 BASE_DIR = Path("/root/tesi_project/serverledge")
-
-# aggiunta 'utility' al sys.path per importare load_matrix
 sys.path.append(str(BASE_DIR / "utility"))
 try:
     from load_matrix import MATRICES
@@ -106,7 +103,7 @@ def main():
         print(f"[ERRORE] File JMX '{JMX_PATH}' non trovato.")
         sys.exit(1)
 
-    # Setup Directory
+    # setup directory
     BASE_RESULTS_DIR = Path(os.path.abspath(base_results_arg))
     results_dir = BASE_RESULTS_DIR / matrix_name
     os.makedirs(results_dir, exist_ok=True)
@@ -128,7 +125,7 @@ def main():
         os.makedirs(row_dir, exist_ok=True)
         result_file = os.path.join(row_dir, f"result_{i + 1}.jtl")
 
-        # costruisce dell'array dei rate dinamica
+        # costruzione dell'array dei rate dinamica
         rates = X[i]
         rate_params = [f"-Jrate_f{j + 1}={rates[j]}" for j in range(num_funcs)]
 
