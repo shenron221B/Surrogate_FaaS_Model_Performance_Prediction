@@ -8,8 +8,8 @@ import json
 
 
 def print_usage():
-    print("Uso: python3 analyze_full_experiment_v2.py <path_cartella_principale>")
-    print("Esempio: python3 analyze_full_experiment_v2.py serverledge/results/3f_3GBpm/q_len_5/256/x17")
+    print("Uso: python3 analyze_experiment_single_func.py <path_cartella_principale>")
+    print("Esempio: python3 analyze_experiment_single_func.py serverledge/results/3f_3GBpm/q_len_5/256/x17")
     sys.exit(1)
 
 
@@ -163,7 +163,7 @@ def main():
             report_lines.append(f"    - Tempo Servizio    : Media={sl['dur_mean']:.4f}s | Max={sl['dur_max']:.4f}s")
             report_lines.append(f"    " + "." * 50)
 
-    report_path = os.path.join(base_dir, "detailed_analysis_report_v2.txt")
+    report_path = os.path.join(base_dir, "detailed_analysis_report_single_func.txt")
     with open(report_path, "w") as f:
         f.write("\n".join(report_lines))
 

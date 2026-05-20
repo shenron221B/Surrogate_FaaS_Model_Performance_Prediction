@@ -8,7 +8,7 @@ CONFIG_MATRICES = {
         "step_inc_percs": [0.25, 0.25, 0.25],  # inc. % step iniziale
 
         "decay_metrics": ["utility_only", "utility_only", "utility_only"],  # metrica decadimento
-        "decay_util_threshs": [0.80, 0.80, 0.80],  # soglia utility decadimento
+        "decay_util_threshs": [0.80, 0.80, 0.80],  # soglia utils decadimento
         "decay_drop_threshs": [1.0, 1.0, 1.0],  # soglia drop rate decadimento
 
         "decay_step_sizes": [0.5, 0.5, 0.5],  # step critico
@@ -18,7 +18,7 @@ CONFIG_MATRICES = {
         "delta_upper": [0.10, 0.10, 0.10],  # delta upper
 
         "stop_metrics": ["drop_rate_or_utility", "drop_rate_or_utility", "drop_rate_or_utility"],  # metrica di stop
-        "stop_util_limits": [0.05, 0.05, 0.05],  # soglia di stop utility
+        "stop_util_limits": [0.05, 0.05, 0.05],  # soglia di stop utils
         "stop_drop_limits": [0.95, 0.95, 0.95]  # soglia di stop drop rate
     },
 

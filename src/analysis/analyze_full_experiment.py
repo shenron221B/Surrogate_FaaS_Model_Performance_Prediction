@@ -152,7 +152,7 @@ def main():
                     jm_median_rt = df['rt_sec'].median()
                     jm_max_rt = df['rt_sec'].max()
 
-                    # calcolo utility (deadline 2.5*serv_time)
+                    # calcolo utils (deadline 2.5*serv_time)
                     if sl['dur_mean'] > 0 and jm_tot > 0:
                         success_df = df[df['success'] == True]
                         valid_reqs = success_df[success_df['rt_sec'] < (sl['dur_mean'] * 2.5)]
