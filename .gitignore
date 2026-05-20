@@ -1,0 +1,14 @@
+# PyCharm e IDE
+.idea/
+__pycache__/
+*.pyc
+
+# Ambienti virtuali
+venv/
+env/
+
+# File generati o pesanti (es. dataset e risultati se non vuoi caricarli)
+# results/
+# *.npz
+# *.jtl
+# *.log
